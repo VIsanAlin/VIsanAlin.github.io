@@ -1,0 +1,534 @@
+[
+  {
+    "id": "2",
+    "category": "action",
+    "title": "Red Dead Redemption 2",
+    "image": "https://www.example.com/images/red-dead-redemption-2.jpg",
+    "description": "America, 1899. The end of the wild west era has begun as lawmen hunt down the last remaining outlaw gangs. Those who will not surrender or succumb are killed.",
+    "publisher": "Rockstars Games",
+    "releaseDate": "October 26, 2018",
+    "features": ["Single player", "Open world", "Third-person shooter"],
+    "systemRequirements": [
+      {
+        "name": "OS",
+        "value": "Windows 7 - Service Pack 1 (6.1.7601)",
+        "note": ""
+      },
+      {
+        "name": "Processor",
+        "value": "Intel® Core™ i5-2500K / AMD FX-6300",
+        "note": ""
+      },
+      {
+        "name": "Memory",
+        "value": "8 GB RAM",
+        "note": ""
+      },
+      {
+        "name": "Graphics",
+        "value": "NVIDIA GeForce GTX 770 2GB / AMD Radeon R9 280 3GB",
+        "note": ""
+      },
+      {
+        "name": "Storage",
+        "value": "150 GB available space",
+        "note": ""
+      }
+    ],
+    "reviews": [
+      {
+        "author": "John Doe",
+        "text": "One of the best games I've ever played. The story, characters, and open world are all top-notch. Highly recommended!",
+        "rating": 5
+      },
+      {
+        "author": "Jane Smith",
+        "text": "I found the controls to be a bit clunky and the pacing a bit slow. Still, the graphics are amazing and there's plenty to do in the game.",
+        "rating": 3
+      }
+    ],
+    "price": 39.99
+  },
+  {
+    "id": "3",
+    "category": "racing",
+    "title": "Forza Horizon 5",
+    "image": "https://www.example.com/images/forza-horizon-5.jpg",
+    "description": "Forza Horizon 5 is the latest entry in the popular racing game franchise. Set in a massive open world, the game features hundreds of cars and plenty of exciting events to participate in.",
+    "publisher": "Microsoft Studios",
+    "releaseDate": "November 9, 2021",
+    "features": ["Single player", "Multiplayer", "Open world"],
+    "systemRequirements": [
+      {
+        "name": "OS",
+        "value": "Windows 10 version 15063.0 or higher",
+        "note": ""
+      },
+      {
+        "name": "Processor",
+        "value": "Intel i3-4170 @ 3.7Ghz OR Intel i5 750 @ 2.67Ghz",
+        "note": ""
+      },
+      {
+        "name": "Memory",
+        "value": "8 GB RAM",
+        "note": ""
+      },
+      {
+        "name": "Graphics",
+        "value": "NVidia 650TI OR NVidia GT 740 OR AMD R7 250x",
+        "note": ""
+      },
+      {
+        "name": "Storage",
+        "value": "80 GB available space",
+        "note": ""
+      }
+    ],
+    "reviews": [
+      {
+        "author": "John Doe",
+        "text": "One of the best games I've ever played. The story, characters, and open world are all top-notch. Highly recommended!",
+        "rating": 5
+      },
+      {
+        "author": "Jane Smith",
+        "text": "I found the controls to be a bit clunky and the pacing a bit slow. Still, the graphics are amazing and there's plenty to do in the game.",
+        "rating": 3
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "title": "Fortnite",
+    "image": "https://cdn.vox-cdn.com/thumbor/7OIFxav7JErjsDZUGpRbOJv04OQ=/0x0:2040x1360/920x613/filters:focal(809x526:1131x848):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/58891395/akrales_180329_1777_0124.0.jpg",
+    "description": "Fortnite is a popular battle royale game developed by Epic Games. It features a colorful and cartoony art style, and players must build structures and collect weapons to be the last player or team standing.",
+    "publisher": "Epic Games",
+    "releaseDate": "July 25, 2017",
+    "features": ["Online multiplayer", "In-game purchases"],
+    "systemRequirements": [
+      "Windows 7/8/10 64-bit",
+      "Intel Core i3 2.4 Ghz",
+      "4 GB RAM",
+      "Intel HD 4000"
+    ],
+    "reviews": [
+      {
+        "username": "gamer123",
+        "rating": 5,
+        "comment": "I love Fortnite! The building mechanics add a whole new layer of strategy to the battle royale genre."
+      },
+      {
+        "username": "casualplayer",
+        "rating": 3,
+        "comment": "It's fun to play occasionally, but the constant updates and changes can be overwhelming."
+      },
+      {
+        "username": "proplayer",
+        "rating": 4,
+        "comment": "Fortnite is a great game for competitive play, but the skill ceiling can be quite high."
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "title": "Forza Horizon 4",
+    "image": "https://cdn.gamer-network.net/2018/usgamer/Forza-Horizon-4-Review-2.jpg/EG11/thumbnail/1920x1080/format/jpg/quality/65/forza-horizon-4-review-2.jpg",
+    "description": "Forza Horizon 4 is an open-world racing game developed by Playground Games. It features dynamic weather, changing seasons, and a large roster of cars to choose from.",
+    "publisher": "Microsoft Studios",
+    "releaseDate": "October 2, 2018",
+    "features": ["Online multiplayer", "In-game purchases"],
+    "systemRequirements": [
+      "Windows 10 version 15063.0 or higher",
+      "Intel i3-4170 @ 3.7Ghz",
+      "8 GB RAM",
+      "NVIDIA GTX 650 Ti"
+    ],
+    "reviews": [
+      {
+        "username": "driftking",
+        "rating": 5,
+        "comment": "Forza Horizon 4 is the best racing game I've ever played. The seasons and weather make every race feel unique."
+      },
+      {
+        "username": "carlover",
+        "rating": 4,
+        "comment": "The car selection in Forza Horizon 4 is fantastic, but I wish there were more customization options."
+      },
+      {
+        "username": "casualracer",
+        "rating": 3,
+        "comment": "It's a fun game to play with friends, but I wish there were more varied race types."
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "title": "The Last of Us Part II",
+    "image": "https://example.com/games/the-last-of-us-part-ii.jpg",
+    "description": "The Last of Us Part II is an action-adventure game that follows Ellie, who seeks revenge after a traumatic event in her life.",
+    "publisher": "Sony Interactive Entertainment",
+    "releaseDate": "June 19, 2020",
+    "features": [
+      "Single player",
+      "Third-person perspective",
+      "Survival elements",
+      "Crafting"
+    ],
+    "systemRequirements": {
+      "OS": "Windows 10 64-bit",
+      "Processor": "Intel Core i5-2500K 3.3GHz or AMD FX-6300 3.5GHz",
+      "Memory": "8 GB RAM",
+      "Graphics": "Nvidia GeForce GTX 960 or AMD Radeon R9 380",
+      "Storage": "50 GB available space"
+    },
+    "reviews": [
+      {
+        "username": "gamer123",
+        "rating": 4.5,
+        "comment": "Amazing story and graphics. Some parts felt too repetitive though."
+      },
+      {
+        "username": "adventureguy",
+        "rating": 5,
+        "comment": "One of the best adventure games I've played. Highly recommended!"
+      },
+      {
+        "username": "survivalist",
+        "rating": 4,
+        "comment": "The survival elements were great, but the game could have been longer."
+      }
+    ]
+  },
+  {
+    "id": "7",
+    "category": "Adventure",
+    "title": "Super Mario Odyssey",
+    "image": "https://cdn.vox-cdn.com/thumbor/M2B1i70ABg7V5vHiEZjDBd-S5rM=/0x0:1024x768/920x613/filters:focal(427x291:597x461):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/57392891/SuperMarioOdyssey_Switch_screenshot_07.0.png",
+    "description": "Super Mario Odyssey is a 3D platform game developed and published by Nintendo. In the game, Mario travels to various worlds known as Kingdoms to collect Power Moons, which can power up his airship, the Odyssey, and rescue Princess Peach from Bowser's wedding plans.",
+    "publisher": "Nintendo",
+    "releaseDate": "October 27, 2017",
+    "features": ["Single-player", "Multiplayer"],
+    "systemRequirements": {
+      "OS": "Nintendo Switch",
+      "Processor": "NVIDIA Custom Tegra processor",
+      "Memory": "4 GB RAM",
+      "Graphics": "NVIDIA Custom Tegra processor",
+      "Storage": "5.2 GB available space"
+    },
+    "reviews": [
+      {
+        "author": "John Doe",
+        "date": "November 1, 2017",
+        "reviewText": "I love this game! The graphics are amazing and the gameplay is so much fun. The different Kingdoms are all unique and interesting, and there are so many Power Moons to collect. Highly recommend!",
+        "rating": 5
+      },
+      {
+        "author": "Jane Smith",
+        "date": "November 3, 2017",
+        "reviewText": "Super Mario Odyssey is a great addition to the Mario franchise. The controls are smooth and the game is very immersive. I would have liked to see a bit more variety in the enemies and bosses, but overall it's a great game.",
+        "rating": 4
+      },
+      {
+        "author": "Bob Johnson",
+        "date": "November 7, 2017",
+        "reviewText": "Super Mario Odyssey is a must-play for any Mario fan. The game is packed with secrets and surprises, and there's always something new to discover. The music is also fantastic, with each Kingdom having its own unique soundtrack.",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "id": "8",
+    "title": "The Elder Scrolls V: Skyrim",
+    "image": "https://via.placeholder.com/300x400",
+    "description": "The Elder Scrolls V: Skyrim is an action RPG video game developed by Bethesda Game Studios and published by Bethesda Softworks.",
+    "publisher": "Bethesda Softworks",
+    "releaseDate": "2011-11-11",
+    "features": [
+      "Open world",
+      "Character customization",
+      "Modding support",
+      "Quests and exploration"
+    ],
+    "systemRequirements": {
+      "OS": "Windows 7/8.1/10 (64-bit Version)",
+      "Processor": "Intel i5-750/AMD Phenom II X4-945",
+      "Memory": "8 GB RAM",
+      "Graphics": "NVIDIA GTX 470 1GB /AMD HD 7870 2GB",
+      "Storage": "15 GB available space"
+    },
+    "reviews": [
+      {
+        "username": "Gamer1",
+        "rating": 5,
+        "comment": "One of the best RPGs of all time. A must-play for any gamer."
+      },
+      {
+        "username": "RPGFan",
+        "rating": 4,
+        "comment": "The world of Skyrim is huge and immersive. The game is a bit buggy at times but still worth playing."
+      },
+      {
+        "username": "GameReviewer",
+        "rating": 5,
+        "comment": "Skyrim is a masterpiece. The game is so engaging and I love the freedom it gives you to play your own way."
+      }
+    ]
+  },
+  {
+    "id": "9",
+    "category": "Strategy",
+    "title": "Civilization VI",
+    "image": "https://example.com/images/civ6.jpg",
+    "description": "Build your empire and conquer the world in this turn-based strategy game.",
+    "publisher": "2K Games",
+    "releaseDate": "2016-10-21",
+    "features": ["Single player", "Multiplayer"],
+    "systemRequirements": {
+      "OS": "Windows 7 64bit / 8.1 64bit / 10 64bit",
+      "Processor": "Intel Core i3 2.5 Ghz or AMD Phenom II 2.6 Ghz or greater",
+      "Memory": "4 GB RAM",
+      "Graphics": "1 GB & AMD 5570 or nVidia 450 or Intel Integrated Graphics 530",
+      "Storage": "12 GB available space"
+    },
+    "reviews": [
+      {
+        "username": "gamer123",
+        "comment": "Amazing game, I can't stop playing it!",
+        "rating": 5
+      },
+      {
+        "username": "strategyfan",
+        "comment": "I've been a fan of the Civilization series for years, and this is the best one yet!",
+        "rating": 4
+      },
+      {
+        "username": "newbiegamer",
+        "comment": "This game has a steep learning curve, but it's worth the effort!",
+        "rating": 4
+      }
+    ]
+  },
+  {
+    "id": "10",
+    "title": "Euro Truck Simulator 2",
+    "image": "https://cdn.example.com/games/euro-truck-simulator-2.jpg",
+    "description": "Experience the life of a truck driver as you travel across Europe, delivering cargo and building your own transportation empire.",
+    "publisher": "SCS Software",
+    "releaseDate": "October 19, 2012",
+    "features": [
+      "Drive over 20 different truck models",
+      "Explore famous landmarks and cities in Europe",
+      "Customize your trucks and hire drivers to expand your business"
+    ],
+    "systemRequirements": {
+      "OS": "Windows 7 or newer",
+      "Processor": "Dual core CPU 2.4 GHz",
+      "Memory": "4 GB RAM",
+      "Graphics": "GeForce GTS 450-class (Intel HD 4000)",
+      "Storage": "7 GB available space"
+    },
+    "reviews": [
+      {
+        "author": "TruckerSteve",
+        "rating": 5,
+        "comment": "As someone who's been driving trucks for over 30 years, I can say that Euro Truck Simulator 2 is the most accurate simulation I've ever played."
+      },
+      {
+        "author": "SimFan",
+        "rating": 4,
+        "comment": "I've always loved simulation games, and this one scratches that itch perfectly. The attention to detail is impressive, and I love being able to build my own trucking empire."
+      },
+      {
+        "author": "GamerGirl",
+        "rating": 3,
+        "comment": "It's a fun game, but it can get a bit repetitive after a while. I wish there were more variety in the cargo you could transport."
+      }
+    ]
+  },
+  {
+    "id": "11",
+    "category": "Racing",
+    "title": "Need for Speed: Heat",
+    "image": "https://example.com/nfs_heat.jpg",
+    "description": "Hustle by day and risk it all at night in Need for Speed Heat, a thrilling race experience that pits you against a city’s rogue police force.",
+    "publisher": "Electronic Arts",
+    "releaseDate": "November 8, 2019",
+    "features": [
+      "Open-world racing",
+      "Customization",
+      "Day and night cycles",
+      "Police pursuits"
+    ],
+    "systemRequirements": [
+      {
+        "os": "Windows 10",
+        "processor": "Core i5-3570 / FX-6350",
+        "memory": "8 GB RAM",
+        "graphics": "GeForce GTX 760 / Radeon R9 280X",
+        "storage": "50 GB available space"
+      }
+    ],
+    "reviews": [
+      {
+        "username": "racer123",
+        "comment": "Great game, really captures the thrill of street racing!",
+        "rating": 4.5
+      },
+      {
+        "username": "speeddemon",
+        "comment": "The handling could be better, but overall a fun experience.",
+        "rating": 3.5
+      },
+      {
+        "username": "gamer_girl",
+        "comment": "Love the customization options!",
+        "rating": 4.0
+      }
+    ]
+  },
+  {
+    "id": "12",
+    "category": "rpg",
+    "title": "Hogwarts Legacy",
+    "image": "https://cdn.example.com/games/hogwarts_legacy.jpg",
+    "description": "Hogwarts Legacy is an upcoming action role-playing video game set in the wizarding world of Harry Potter. The game takes place in the late 1800s, before the events of the Harry Potter novels, and allows players to create their own character and attend Hogwarts School of Witchcraft and Wizardry. The game features an open-world environment, with players able to explore locations such as Hogsmeade, the Forbidden Forest, and the Ministry of Magic. Players will also be able to cast spells and participate in duels against other students.",
+    "publisher": "Warner Bros. Interactive Entertainment",
+    "releaseDate": "2022",
+    "features": [
+      "Open-world environment",
+      "Create your own character",
+      "Cast spells and participate in duels"
+    ],
+    "systemRequirements": {
+      "OS": "Windows 10",
+      "Processor": "Core i5-3570 / FX-6350",
+      "Memory": "8 GB RAM",
+      "Graphics": "GeForce GTX 760 / Radeon R9 280X",
+      "Storage": "50 GB available space"
+    },
+    "reviews": [
+      {
+        "user": "harrypotterfan",
+        "rating": 5,
+        "comment": "Finally, a Harry Potter game that lets me create my own character and explore Hogwarts!"
+      },
+      {
+        "user": "ronweasleyfan",
+        "rating": 4,
+        "comment": "The world-building is fantastic, can't wait to see what other secrets Hogwarts has to offer."
+      },
+      {
+        "user": "hermionegrangerfan",
+        "rating": 3,
+        "comment": "The dueling mechanics need some work, but overall a solid Harry Potter game."
+      }
+    ]
+  },
+  {
+    "id": "13",
+    "category": "coop",
+    "title": "Ready or Not",
+    "image": "https://cdn.example.com/games/ready_or_not.jpg",
+    "description": "Ready or Not is a tactical shooter video game developed by Void Interactive. The game puts players in the role of a member of a SWAT team, tasked with responding to high-risk situations such as hostage rescues and armed standoffs. The game features a single-player campaign as well as cooperative multiplayer modes, where players can work together to complete missions. The game emphasizes realistic tactical gameplay, with features such as door breaching and non-lethal takedowns.",
+    "publisher": "Void Interactive",
+    "releaseDate": "2022",
+    "features": [
+      "Single-player campaign",
+      "Cooperative multiplayer modes",
+      "Realistic tactical gameplay"
+    ],
+    "systemRequirements": {
+      "OS": "Windows 10",
+      "Processor": "Core i5-3570 / FX-6350",
+      "Memory": "8 GB RAM",
+      "Graphics": "GeForce GTX 760 / Radeon R9 280X",
+      "Storage": "50 GB available space"
+    },
+    "reviews": [
+      {
+        "user": "tacticalgamer",
+        "rating": 5,
+        "comment": "Finally, a tactical shooter that prioritizes realism over mindless action. Can't wait to play with my squad."
+      }
+    ]
+  },
+  {
+    "id": "14",
+    "title": "The Binding of Isaac: Rebirth",
+    "category": "RPG",
+    "image": "https://www.example.com/images/isaac.png",
+    "description": "The Binding of Isaac: Rebirth is a randomly generated action RPG shooter with heavy Rogue-like elements.",
+    "publisher": "Nicalis, Inc.",
+    "releaseDate": "November 4, 2014",
+    "features": [
+      "Roguelike gameplay",
+      "Randomly generated levels",
+      "Over 500 items and weapons",
+      "Co-op and competitive multiplayer"
+    ],
+    "systemRequirements": {
+      "OS": "Windows 7 or later",
+      "Processor": "Intel Core i3 2.4 GHz",
+      "Memory": "4 GB RAM",
+      "Graphics": "Nvidia GeForce 9800GTX+ or ATI Radeon HD 3850",
+      "Storage": "2 GB available space"
+    },
+    "reviews": [
+      {
+        "username": "gamer123",
+        "rating": 4,
+        "comment": "This game is addictive and challenging. The random generation of levels keeps it fresh and interesting."
+      },
+      {
+        "username": "isaacfan",
+        "rating": 5,
+        "comment": "The Binding of Isaac is a masterpiece. It's packed with content and has tons of replay value. Highly recommended."
+      },
+      {
+        "username": "roguegamer",
+        "rating": 4,
+        "comment": "If you're a fan of rogue-like games, then this is a must-play. The co-op multiplayer adds even more fun to the game."
+      }
+    ]
+  },
+  {
+    "id": "15",
+    "title": "Witch It",
+    "category": "Multiplayer",
+    "image": "https://www.example.com/images/witchit.png",
+    "description": "Witch It is a multiplayer hide & seek game set in a fairytale world. Brave hunters seek hidden witches in a humorous, magical world.",
+    "publisher": "Barrel Roll Games",
+    "releaseDate": "May 31, 2017",
+    "features": [
+      "Hide & seek gameplay",
+      "Fairytale world",
+      "Choose between being a witch or a hunter",
+      "Customizable characters"
+    ],
+    "systemRequirements": {
+      "OS": "Windows 7 or later",
+      "Processor": "Intel Core i5 2.8 GHz",
+      "Memory": "8 GB RAM",
+      "Graphics": "Nvidia GeForce GTX 660 or ATI Radeon HD 7870",
+      "Storage": "5 GB available space"
+    },
+    "reviews": [
+      {
+        "username": "witchywoman",
+        "rating": 4,
+        "comment": "Witch It is a unique and fun take on hide & seek. The fairytale world and customization options make it even better."
+      },
+      {
+        "username": "hunterfan",
+        "rating": 5,
+        "comment": "I never knew hide & seek could be so much fun. The game is well-balanced and the multiplayer is seamless."
+      },
+      {
+        "username": "fairytalegamer",
+        "rating": 4,
+        "comment": "The game is visually stunning and the gameplay is fun and engaging. Highly recommended for multiplayer fans."
+      }
+    ]
+  }
+]

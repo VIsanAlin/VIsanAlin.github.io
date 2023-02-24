@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .header {
+    @apply pb-4;
+  }
+
+  .productContainer {
+    @apply bg-secondColor container flex flex-col py-4 mx-auto
+    md:grid md:grid-cols-3 md:gap-2;
+  }
+  .productItem {
+    @apply grid grid-cols-2  md:grid-cols-1  py-4 border rounded-xl;
+  }
+  .productLeft {
+    @apply flex;
+  }
+  .productRight {
+    @apply flex justify-end md:justify-evenly;
+  }
+  .tags {
+    @apply px-4;
+  }
+}

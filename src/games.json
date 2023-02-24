@@ -1,0 +1,74 @@
+[
+  {
+    "id": "2",
+    "title": "Hogwarts Legacy",
+    "image": "https://i.ibb.co/1bDQ0WG/hogwardslegacy.jpg",
+    "release": "10 Feb 2023",
+    "tags": ["Action", "RPG", "Casual"],
+    "price": "69.99"
+  },
+  {
+    "id": "3",
+    "title": "Ready or Not",
+    "image": "https://i.ibb.co/3cF2xQD/readyornot.jpg",
+    "release": "18 Dec 2021",
+    "tags": ["Action", "Coop", "Multiplayer"],
+    "price": "35.99"
+  },
+  {
+    "id": "4",
+    "title": "Binding of Isaac",
+    "image": "https://i.ibb.co/bRXD0XB/bindingofisaac.jpg",
+    "release": "04 Nov 2014",
+    "tags": ["Action", "Casual"],
+    "price": "69.99"
+  },
+  {
+    "id": "5",
+    "title": "Half-Life: Alyx",
+    "image": "https://i.ibb.co/rfPMVKd/hfalyx.jpg",
+    "release": "23 Mar 2020",
+    "tags": ["Action", "VR"],
+    "price": "58.99"
+  },
+  {
+    "id": "6",
+    "title": "Witch It",
+    "image": "https://i.ibb.co/Tt6x6Vr/witchit.jpg",
+    "release": "22 Oct 2020",
+    "tags": ["Multiplayer", "Coop", "Casual"],
+    "price": "19.99"
+  },
+  {
+    "id": "7",
+    "title": "Dying Light 2",
+    "image": "https://i.ibb.co/YBFhV78/dyinglight2.jpg",
+    "release": "4 Feb 2022",
+    "tags": ["Action", "Coop", "RPG"],
+    "price": "35.99"
+  },
+  {
+    "id": "8",
+    "title": "Cyberpunk 2077",
+    "image": "https://i.ibb.co/hmzGvYH/cyberpunk2077.jpg",
+    "release": "10 Dec 2020",
+    "tags": ["Action", "RPG", "Casual"],
+    "price": "69.99"
+  },
+  {
+    "id": "9",
+    "title": "Mini Motorways",
+    "image": "https://i.ibb.co/jRQZBP3/minimotorways.jpg",
+    "release": "20 Jul 2021",
+    "tags": ["Casual", "Strategy"],
+    "price": "8.19"
+  },
+  {
+    "id": "10",
+    "title": "Snow Runner",
+    "image": "https://i.ibb.co/3r3LzfT/snowrunner.jpg",
+    "release": "18 May 2021",
+    "tags": ["Racing", "Coop", "Multiplayer"],
+    "price": "29.99"
+  }
+]
