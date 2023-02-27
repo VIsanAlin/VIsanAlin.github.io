@@ -1,11 +1,18 @@
 import { FaFacebook, FaTwitter, FaInstagram } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { GiConsoleController } from "react-icons/gi";
+import { useState } from "react";
 import games from "./games.json";
 
 const HeadBarIcon = ({ icon }) => <div className="sidebar-icon">{icon}</div>;
 
 export default function Products() {
+  const [visibleGames, setVisibleGames] = useState(12);
+
+  function loadMore() {
+    setVisibleGames((prev) => prev + 12);
+  }
+
   return (
     <div className="main">
       {/* Header */}
@@ -170,34 +177,42 @@ export default function Products() {
         </div>
       </div>
       {/* List */}
-      <div className="productContainer">
+      <div className="productContainer grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
         {games &&
-          games.map(({ title, image, price, release, tags, id }) => (
-            <Link
-              to={`/Products/${id}`}
-              key={id}
-              className="productItem text-eightColor "
-            >
-              <div className="productLeft">
-                <img
-                  src={image}
-                  alt={title}
-                  border="0"
-                  className="pl-4 w-3/4"
-                />
-
-                <p className="">{title}</p>
-              </div>
-              <div className="productRight">
-                <p className="tags">
-                  [{tags[0]}] [{tags[1]}]
-                </p>
-                <p className="px-4">Release: {release}</p>
-                <p className="px-4">{price}€</p>
-              </div>
-            </Link>
-          ))}
+          games
+            .slice(0, visibleGames)
+            .map(({ title, image, price, tags, id }) => (
+              <Link
+                to={`/Products/${id}`}
+                key={id}
+                className="border rounded-md shadow-sm overflow-hidden productItem "
+              >
+                <div className="h-48 overflow-hidden">
+                  <img
+                    src={image}
+                    alt={title}
+                    className="object-fill h-full w-full"
+                  />
+                </div>
+                <div className="flex justify-between h-16 px-4 py-2 ">
+                  <div>
+                    <h3 className="text-lg font-medium  mb-2">{title}</h3>
+                    <p className=" text-sm mb-2">
+                      {tags.map((tag) => `[${tag}] `)}
+                    </p>
+                  </div>
+                  <div className="">
+                    <p className="font-bold text-lg">{price}€</p>
+                  </div>
+                </div>
+              </Link>
+            ))}
       </div>
+      {visibleGames < games.length && (
+        <button onClick={loadMore} className="loadMoreButton">
+          Load More
+        </button>
+      )}
       {/* Footer */}
       <footer className="footer">
         <div className="leftFooter w-1/4">

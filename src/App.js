@@ -2,12 +2,14 @@ import { useEffect } from "react";
 import { FaFacebook, FaTwitter, FaInstagram } from "react-icons/fa";
 import { GiConsoleController } from "react-icons/gi";
 import { IoLogoSteam, IoLogoXbox, IoLogoPlaystation } from "react-icons/io";
-import carouselOne from "./img/eldenring.jpg";
+import carouselOne from "./img/cyberpunk1920x1080.png";
 import carouselTwo from "./img/gowr.jpg";
 import carouselThree from "./img/codbo.jpg";
 import carouselFour from "./img/acbundle.jpg";
 import heroImage from "./img/2.jpg";
 import HeadHeroImg from "./img/3.jpg";
+import mobileImagev1 from "./img/5v2.jpg";
+import mobileImagev2 from "./img/5v3.jpg";
 
 const HeadBarIcon = ({ icon }) => <div className="sidebar-icon">{icon}</div>;
 
@@ -62,19 +64,31 @@ function App() {
               className="text-eightColor hover:bg-forthColor hover:text-white px-2 py-2 rounded-full"
               href="#"
             >
-              Platforms
-            </a>
-            <a
-              className="text-eightColor hover:bg-forthColor hover:text-white px-2 py-2 rounded-full"
-              href="#"
-            >
               Contacts
             </a>
           </div>
           {/* Login */}
           <div>
+            <div className="md:hidden relative w-10 h-10 mt-2 overflow-hidden bg-secondColor rounded-full dark:forthColor">
+              <button
+                type="button"
+                className="loginSVG"
+                data-modal-target="authenticationModal"
+                data-modal-toggle="authenticationModal"
+              >
+                <svg
+                  aria-hidden="true"
+                  className="absolute w-10 h-10 text-eightColor top-1  "
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"></path>
+                </svg>
+              </button>
+            </div>
             <button
-              className="logIn"
+              className="logIn max-sm:hidden"
               data-modal-target="authenticationModal"
               data-modal-toggle="authenticationModal"
             >
@@ -289,13 +303,13 @@ function App() {
           }}
         >
           <div className="platformsBox">
-            <h2 className="text-thirdColor text-2xl flex flex-row px-44 py-2">
+            <h2 className="text-thirdColor text-2xl flex flex-row py-2 justify-center">
               <HeadBarIcon
                 icon={<IoLogoSteam size="30" className="text-eightColor" />}
               />{" "}
               PC
             </h2>
-            <p className="text-eightColor text-sm">
+            <p className="text-eightColor text-md">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -303,13 +317,13 @@ function App() {
             </p>
           </div>
           <div className="platformsBox">
-            <h2 className="text-thirdColor text-2xl flex flex-row px-40 py-2">
+            <h2 className="text-thirdColor text-2xl flex flex-row  py-2 justify-center">
               <HeadBarIcon
                 icon={<IoLogoXbox size="30" className="text-eightColor" />}
               />{" "}
               XBOX
             </h2>
-            <p className="text-eightColor text-sm ">
+            <p className="text-eightColor text-md ">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -317,7 +331,7 @@ function App() {
             </p>
           </div>
           <div className="platformsBox">
-            <h2 className="text-thirdColor text-2xl flex flex-row px-36 py-2">
+            <h2 className="text-thirdColor text-2xl flex flex-row  py-2 justify-center">
               <HeadBarIcon
                 icon={
                   <IoLogoPlaystation size="30" className="text-eightColor" />
@@ -325,11 +339,50 @@ function App() {
               />{" "}
               PlayStation
             </h2>
-            <p className="text-eightColor text-sm ">
+            <p className="text-eightColor text-md ">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam, quis nostrud exercitation ullamco laboris
               nisi ut aliquip ex ea commodo consequat.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Mobile app */}
+      <section id="mobileApp" className="mobileApp">
+        <div className="layoutMobileApp">
+          <div className="textMobileApp">
+            <h1 className="text-forthColor max-w-md text-4xl font-bold text-center md:text-5xl md:text-left">
+              On your way back home ?
+            </h1>
+            <p className="text-eightColor max-w-sm text-center md:text-left">
+              {" "}
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+              sunt in culpa qui officia deserunt mollit anim id est laborum.{" "}
+            </p>
+          </div>
+          <div className="flex items-center mx-auto">
+            <img src={mobileImagev1} alt="" className="mobileImage" />
+          </div>
+          <div className="flex items-center mx-auto">
+            <img src={mobileImagev2} alt="" className="mobileImage" />
+          </div>
+          <div className="textMobileApp">
+            <h1 className="text-forthColor max-w-md text-4xl font-bold text-center md:text-5xl md:text-left">
+              Get notified everywhere you are
+            </h1>
+            <p className="text-eightColor max-w-sm text-center md:text-left">
+              {" "}
+              Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+              cupidatat non proident, sunt in culpa qui officia deserunt mollit
+              anim id est laborum.{" "}
             </p>
           </div>
         </div>
@@ -346,7 +399,7 @@ function App() {
           data-carousel="static"
         >
           {/* <!-- Carousel wrapper --> */}
-          <div className="relative overflow-hidden md:h-[40rem] rounded-lg ">
+          <div className="relative overflow-hidden h-48 md:h-[40rem] rounded-lg ">
             {/* <!-- Item 1 --> */}
             <div
               className="hidden duration-700 ease-in-out"
@@ -469,22 +522,19 @@ function App() {
       {/* Footer */}
 
       <footer className="footer">
-        <div className="leftFooter w-1/4">
-          <div className="logo">
+        <div className="leftFooter md:w-1/4">
+          <div className="logo max-sm:hidden">
             <HeadBarIcon icon={<GiConsoleController size="40" />} />
             <h2 className="text-sixColor ">Gaming Platform</h2>
           </div>
-          <p>
-            {" "}
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-            lobortis.{" "}
-          </p>
+          <p className="max-sm:hidden text-lg">Let's play some games.</p>
+          <p className="max-sm:hidden text-lg"> Let's have some fun.</p>
           <div className="socialMedia">
             <HeadBarIcon icon={<FaFacebook size="20" />} />
             <HeadBarIcon icon={<FaTwitter size="20" />} />
             <HeadBarIcon icon={<FaInstagram size="20" />} />
           </div>
-          <p> Copyright &copy; Visan Alin Bogdan </p>
+          <p> Copyright &copy; Visan Alin </p>
         </div>
         <div className="rightFooter ">
           <div className="usefulLinks">

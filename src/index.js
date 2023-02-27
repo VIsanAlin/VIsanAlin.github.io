@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import "./Products.css";
+import "./Productgame.css";
 import App from "./App";
 import Dashboard from "./Dashboard";
 import Products from "./Products";

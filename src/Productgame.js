@@ -1,7 +1,7 @@
 import { FaFacebook, FaTwitter, FaInstagram } from "react-icons/fa";
 import { GiConsoleController } from "react-icons/gi";
 import { useParams } from "react-router-dom";
-import gamesData from "./gamesData.json";
+import gamesData from "./games.json";
 
 const HeadBarIcon = ({ icon }) => <div className="sidebar-icon">{icon}</div>;
 
@@ -174,36 +174,60 @@ function Productgame() {
         </div>
       </div>
       {/* The product */}
-      <div className="container text-nineColor">
-        <h2>{game.title}</h2>
-        <p>{game.description}</p>
-        <p>Publisher: {game.publisher}</p>
-        <p>Release date: {game.releaseDate}</p>
-        <p>Features: </p>
-        <ul>
-          {game.features.map((feature) => (
-            <li>{feature}</li>
-          ))}
-        </ul>
-        <p>System requirements:</p>
-        <ul>
-          {game.systemRequirements.map((requirement) => (
-            <li>
-              {requirement.name} : {requirement.value} {requirement.note}
-            </li>
-          ))}
-        </ul>
-        <h3>User reviews:</h3>
-        <ul>
-          {game.reviews.map((review) => (
-            <li>
-              <p>{review.text}</p>
-              <p>By {review.author}</p>
-              <p>Rating: {review.rating}/5</p>
-            </li>
-          ))}
-        </ul>
+      <div className="productLayout">
+        <h2 className="text-4xl px-8 py-4">{game.title}</h2>
+        <div className="flex">
+          <div className="px-8 w-1/2">
+            <img src={game.image} alt={game.title} />
+          </div>
+          <div className="px-8 w-1/2 grid justify-evenly">
+            <img src={game.image} alt={game.title} className="w-1/3" />
+            <p>Publisher: {game.publisher}</p>
+            <p>Release date: {game.release}</p>
+            <p className="w-1/2">{game.description}</p>
+            <p>Tags: {game.tags.join(", ")}</p>
+          </div>
+        </div>
+        <div className="px-8 py-8">
+          <p className="flex justify-end border-b-2 border-tenColor">
+            Price: {game.price}
+          </p>
+        </div>
+        <div className="features">
+          <p className="border-b-2 border-tenColor pb-2">Features: </p>
+          <ul>
+            {game.features.map((feature) => (
+              <li>{feature}</li>
+            ))}
+          </ul>
+        </div>
+        <div className="systemReq">
+          <p className="border-b-2 border-tenColor pb-2">
+            System requirements:
+          </p>
+          <ul>
+            <li>OS: {game.systemRequirements.OS}</li>
+            <li>Processor: {game.systemRequirements.Processor}</li>
+            <li>Memory: {game.systemRequirements.Memory}</li>
+            <li>Graphics: {game.systemRequirements.Graphics}</li>
+            <li>DirectX: {game.systemRequirements.DirectX}</li>
+            <li>Storage: {game.systemRequirements.Storage}</li>
+          </ul>
+        </div>
+        <div className="reviews">
+          <h3 className="border-b-2 border-tenColor pb-2">User reviews:</h3>
+          <ul>
+            {game.reviews.map((review) => (
+              <li>
+                <p>{review.comment}</p>
+                <p>By {review.username}</p>
+                <p>Rating: {review.rating}/5</p>
+              </li>
+            ))}
+          </ul>
+        </div>
       </div>
+
       {/* Footer */}
       <footer className="footer">
         <div className="leftFooter w-1/4">

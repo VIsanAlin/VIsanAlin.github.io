@@ -2,6 +2,36 @@
   {
     "id": "2",
     "title": "Hogwarts Legacy",
+    "category": "Action RPG",
+    "description": "Hogwarts Legacy is an immersive, open-world action RPG set in the world first introduced in the Harry Potter books. Now you can take control of the action and be at the center of your own adventure in the wizarding world.",
+    "publisher": "Portkey Games",
+    "features": [
+      "Experience Hogwarts in the 1800s",
+      "Create your own character and become a wizard",
+      "Attend classes and learn magical spells and potions",
+      "Explore the open-world environment",
+      "Encounter magical creatures and iconic characters"
+    ],
+    "systemRequirements": {
+      "OS": "Windows 10 (64-bit) or newer",
+      "Processor": "Intel Core i5-2400 @ 3.1 GHz or AMD FX-6300 @ 3.5 GHz or equivalent",
+      "Memory": "8 GB RAM",
+      "Graphics": "NVIDIA GeForce GTX 660 or AMD Radeon HD 7870 or equivalent",
+      "DirectX": "Version 11",
+      "Storage": "50 GB available space"
+    },
+    "reviews": [
+      {
+        "username": "HarryPotterFan",
+        "comment": "As a huge Harry Potter fan, I was excited to play this game and it did not disappoint. The graphics are amazing and the storyline is engaging.",
+        "rating": 5
+      },
+      {
+        "username": "RPGGamer",
+        "comment": "I love RPGs and this one is great. The magic spells and potion-making are fun, and there's so much to explore in the open world. Definitely recommend!",
+        "rating": 4
+      }
+    ],
     "image": "https://i.ibb.co/1bDQ0WG/hogwardslegacy.jpg",
     "release": "10 Feb 2023",
     "tags": ["Action", "RPG", "Casual"],
@@ -10,7 +40,33 @@
   {
     "id": "3",
     "title": "Ready or Not",
-    "image": "https://i.ibb.co/3cF2xQD/readyornot.jpg",
+    "category": "Action",
+    "description": "In Ready or Not, players assume the role of a SWAT officer tasked with responding to high-risk situations, such as hostage rescues and drug busts. The game features a single-player campaign as well as co-op and multiplayer modes.",
+    "features": [
+      "Campaign mode",
+      "Co-op mode",
+      "Multiplayer mode",
+      "Customizable loadouts",
+      "Realistic weapons and equipment"
+    ],
+    "systemRequirements": {
+      "OS": "Windows 10 (64-bit)",
+      "Processor": "Intel Core i5-3570K or AMD FX-8350",
+      "Memory": "8 GB RAM",
+      "Graphics": "Nvidia GeForce GTX 760 or AMD Radeon R9 270X",
+      "Storage": "45 GB available space"
+    },
+    "reviews": [
+      {
+        "author": "GamingTrend",
+        "quote": "Ready or Not is the tactical shooter that Rainbow Six Siege players have been waiting for."
+      },
+      {
+        "author": "PC Gamer",
+        "quote": "Ready or Not's thoughtful blend of mechanics and presentation make it a thrilling and realistic tactical shooter."
+      }
+    ],
+    "image": "https://i.postimg.cc/BQ7szDvP/readyornot2.png",
     "release": "18 Dec 2021",
     "tags": ["Action", "Coop", "Multiplayer"],
     "price": "35.99"
@@ -18,10 +74,37 @@
   {
     "id": "4",
     "title": "Binding of Isaac",
+    "category": "Action",
     "image": "https://i.ibb.co/bRXD0XB/bindingofisaac.jpg",
+    "description": "The Binding of Isaac is an action-adventure game in which the player controls Isaac, a young boy who is trying to escape from his mother who wants to sacrifice him to God. The game features randomly generated dungeons, with each playthrough being unique.",
     "release": "04 Nov 2014",
     "tags": ["Action", "Casual"],
-    "price": "69.99"
+    "price": "19.99",
+    "features": [
+      "Randomly generated dungeons",
+      "Over 500 unique items",
+      "Multiple playable characters",
+      "Challenging boss battles"
+    ],
+    "systemRequirements": {
+      "OS": "Windows 7/8/10",
+      "Processor": "1.5 GHz",
+      "Memory": "4 GB RAM",
+      "Graphics": "DirectX 10.1 Compatible Graphics Card",
+      "Storage": "2 GB available space"
+    },
+    "reviews": [
+      {
+        "user": "JohnDoe",
+        "comment": "This game is incredibly addicting! The randomly generated dungeons keep each playthrough fresh and exciting.",
+        "rating": 4.5
+      },
+      {
+        "user": "JaneDoe",
+        "comment": "As a fan of rogue-like games, I absolutely love The Binding of Isaac. The game is challenging but fair, and there's always something new to discover.",
+        "rating": 5
+      }
+    ]
   },
   {
     "id": "5",
@@ -29,7 +112,35 @@
     "image": "https://i.ibb.co/rfPMVKd/hfalyx.jpg",
     "release": "23 Mar 2020",
     "tags": ["Action", "VR"],
-    "price": "58.99"
+    "price": "58.99",
+    "category": "Action",
+    "description": "Half-Life: Alyx is a VR first-person shooter game developed by Valve Corporation. It is set in the Half-Life universe and takes place before the events of Half-Life 2. The game follows Alyx Vance as she and her father Eli Vance fight against the Combine.",
+    "features": [
+      "VR support",
+      "Immersive first-person shooter gameplay",
+      "Story-driven narrative",
+      "Puzzle-solving elements"
+    ],
+    "systemRequirements": {
+      "OS": "Windows 10",
+      "Processor": "Core i5-7500 / Ryzen 5 1600",
+      "Memory": "12 GB RAM",
+      "Graphics": "NVIDIA GTX 1060 / AMD Radeon RX 580",
+      "DirectX": "Version 11",
+      "Storage": "67 GB available space"
+    },
+    "reviews": [
+      {
+        "author": "John Doe",
+        "rating": 5,
+        "comment": "This game blew me away! The graphics and immersion are top-notch. Highly recommend for any VR fan."
+      },
+      {
+        "author": "Jane Smith",
+        "rating": 4,
+        "comment": "I'm not usually a fan of first-person shooters, but this game's story and puzzle elements kept me hooked. The VR support is a great added bonus."
+      }
+    ]
   },
   {
     "id": "6",
@@ -37,7 +148,35 @@
     "image": "https://i.ibb.co/Tt6x6Vr/witchit.jpg",
     "release": "22 Oct 2020",
     "tags": ["Multiplayer", "Coop", "Casual"],
-    "price": "19.99"
+    "price": "19.99",
+    "category": "Casual game",
+    "description": "Witch It is a multiplayer hide-and-seek game where players take on the roles of witches and hunters. The witches can transform into objects in the game world to hide from the hunters, while the hunters try to find and capture them. The game is set in a colorful, whimsical world with a variety of different maps and game modes.",
+    "features": [
+      "Online multiplayer for up to 16 players",
+      "A variety of different maps and game modes",
+      "Customizable witches with different hats and outfits",
+      "In-game chat and voice communication"
+    ],
+    "systemRequirements": {
+      "OS": "Windows 7 SP1 or newer",
+      "Processor": "Intel Core i5-2500K or AMD FX 6300",
+      "Memory": "4 GB RAM",
+      "Graphics": "NVIDIA GeForce GTX 660 or AMD Radeon HD 7850",
+      "Network": "Broadband Internet connection",
+      "Storage": "4 GB available space"
+    },
+    "reviews": [
+      {
+        "author": "GameFan",
+        "rating": 8,
+        "content": "Witch It is a charming and addictive multiplayer game that's perfect for casual play. The game mechanics are easy to learn, but there's plenty of depth to the gameplay to keep you coming back for more."
+      },
+      {
+        "author": "GamerGuy",
+        "rating": 6,
+        "content": "While I enjoyed playing Witch It with friends, I found the game lacked depth and replayability. The graphics and sound design are solid, but the gameplay can get repetitive after a while."
+      }
+    ]
   },
   {
     "id": "7",
@@ -45,7 +184,47 @@
     "image": "https://i.ibb.co/YBFhV78/dyinglight2.jpg",
     "release": "4 Feb 2022",
     "tags": ["Action", "Coop", "RPG"],
-    "price": "35.99"
+    "price": "35.99",
+    "category": "Action",
+    "description": "Dying Light 2 is a first-person action game set in an open world overrun by zombies. You play as Aiden Caldwell, a survivor who must navigate the dangerous streets of the city, scavenge for supplies, and fight off hordes of the infected. The game features an immersive storyline with multiple paths and choices that affect the outcome of the game.",
+    "features": [
+      "Explore a vast open world filled with danger and opportunity",
+      "Craft weapons and tools to aid your survival",
+      "Join forces with other survivors to complete missions and take on the undead",
+      "Make choices that affect the story and the fate of the city"
+    ],
+    "systemRequirements": {
+      "Minimum": {
+        "OS": "Windows 10 64-bit",
+        "Processor": "Intel Core i5-2500K / AMD FX-6300",
+        "Memory": "8 GB RAM",
+        "Graphics": "Nvidia GTX 960 / AMD Radeon R9 270",
+        "DirectX": "Version 11",
+        "Storage": "45 GB available space",
+        "AdditionalNotes": "SSD recommended"
+      },
+      "Recommended": {
+        "OS": "Windows 10 64-bit",
+        "Processor": "Intel Core i7-4790K / AMD Ryzen 5 1600",
+        "Memory": "16 GB RAM",
+        "Graphics": "Nvidia GTX 1070 / AMD Radeon RX Vega 56",
+        "DirectX": "Version 11",
+        "Storage": "45 GB available space",
+        "AdditionalNotes": "SSD recommended"
+      }
+    },
+    "reviews": [
+      {
+        "author": "John",
+        "comment": "This game is amazing! The open world is so detailed and the story kept me engaged from start to finish.",
+        "rating": 5
+      },
+      {
+        "author": "Sarah",
+        "comment": "I had some technical issues with the game, but overall I enjoyed the gameplay and the co-op mode is a lot of fun.",
+        "rating": 4
+      }
+    ]
   },
   {
     "id": "8",
@@ -53,7 +232,38 @@
     "image": "https://i.ibb.co/hmzGvYH/cyberpunk2077.jpg",
     "release": "10 Dec 2020",
     "tags": ["Action", "RPG", "Casual"],
-    "price": "69.99"
+    "price": "69.99",
+    "category": "Action RPG",
+    "description": "Cyberpunk 2077 is an open-world, action role-playing video game set in Night City, a megalopolis obsessed with power, glamour and body modification. You play as V, a mercenary outlaw going after a one-of-a-kind implant that is the key to immortality. You can customize your character’s cyberware, skillset and playstyle, and explore a vast city where the choices you make shape the story and the world around you.",
+    "features": [
+      "A mature, non-linear story featuring Keanu Reeves as Johnny Silverhand",
+      "A massive open-world city to explore with various districts and factions",
+      "A deep character customization system with a vast array of cybernetic implants",
+      "A skill-based progression system with multiple playstyles and abilities to choose from",
+      "Dynamic weather and day/night cycles that affect gameplay",
+      "A branching narrative with multiple endings based on your choices",
+      "An immersive first-person perspective with stunning graphics and visuals",
+      "An extensive crafting and looting system for weapons and gear"
+    ],
+    "systemRequirements": {
+      "OS": "Windows 10 (64-bit)",
+      "Processor": "Intel Core i7-4790 or AMD Ryzen 3 3200G",
+      "Memory": "12 GB RAM",
+      "Graphics": "NVIDIA GeForce GTX 1060 6GB or AMD Radeon R9 Fury",
+      "Storage": "70 GB available space"
+    },
+    "reviews": [
+      {
+        "username": "GamerGuy",
+        "rating": 5,
+        "comment": "Cyberpunk 2077 is the best game I've played in years! The open-world is amazing and there are so many different ways to play. The graphics and story are top-notch, and I can't wait to see what CD Projekt Red does next!"
+      },
+      {
+        "username": "CyberNinja",
+        "rating": 4,
+        "comment": "Despite the initial launch issues, I think Cyberpunk 2077 is a great game. The story and characters are well-written, and the open-world is incredibly immersive. The only downside is that the game can still be a bit buggy at times, but CD Projekt Red is constantly releasing updates to fix it."
+      }
+    ]
   },
   {
     "id": "9",
@@ -61,7 +271,49 @@
     "image": "https://i.ibb.co/jRQZBP3/minimotorways.jpg",
     "release": "20 Jul 2021",
     "tags": ["Casual", "Strategy"],
-    "price": "8.19"
+    "price": "8.19",
+    "category": "Simulation",
+    "description": "Mini Motorways is a minimalistic and relaxing traffic management game that puts you in charge of designing the road network of a growing city. Connect different buildings and ensure that the flow of traffic is smooth and efficient. The game features procedurally generated maps, day/night cycle, and various challenges to test your skills.",
+    "features": [
+      "Design and manage road networks of a growing city",
+      "Procedurally generated maps for endless replayability",
+      "Day/night cycle and weather effects",
+      "Various challenges and game modes"
+    ],
+    "systemRequirements": [
+      {
+        "title": "Minimum",
+        "specs": [
+          "OS: Windows 10",
+          "Processor: 2 GHz or faster processor",
+          "Memory: 4 GB RAM",
+          "Graphics: Intel HD 4000 or better",
+          "Storage: 500 MB available space"
+        ]
+      },
+      {
+        "title": "Recommended",
+        "specs": [
+          "OS: Windows 10",
+          "Processor: 3 GHz or faster processor",
+          "Memory: 8 GB RAM",
+          "Graphics: Dedicated GPU with 2 GB VRAM or better",
+          "Storage: 500 MB available space"
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "author": "John",
+        "content": "I love how simple and elegant Mini Motorways is. It's a great way to unwind after a long day at work. Highly recommended!",
+        "rating": 4.5
+      },
+      {
+        "author": "Jane",
+        "content": "As someone who hates traffic, I found Mini Motorways to be a very satisfying game. The puzzles are challenging without being frustrating, and the graphics are beautiful. Definitely worth the price!",
+        "rating": 4.0
+      }
+    ]
   },
   {
     "id": "10",
@@ -69,6 +321,468 @@
     "image": "https://i.ibb.co/3r3LzfT/snowrunner.jpg",
     "release": "18 May 2021",
     "tags": ["Racing", "Coop", "Multiplayer"],
-    "price": "29.99"
+    "price": "29.99",
+    "category": "Simulation",
+    "description": "Snow Runner is an off-road driving simulation game developed by Saber Interactive. It is the third game in the MudRunner series and features improved graphics and new locations. Players take on the role of a driver and complete various missions to deliver cargo in challenging environments.",
+    "features": [
+      "Drive a variety of vehicles, including trucks, trailers, and heavy machinery",
+      "Explore vast and diverse environments, from snow-covered mountains to swamps and forests",
+      "Complete missions and contracts to earn money and unlock new vehicles and upgrades",
+      "Play solo or team up with friends in multiplayer modes"
+    ],
+    "systemRequirements": {
+      "OS": "Windows 7/8/10 (64-bit)",
+      "Processor": "Intel i3-4130 @ 3.4 GHz or AMD Ryzen 3 2200U @ 3.4 GHz",
+      "Memory": "8 GB RAM",
+      "Graphics": "NVIDIA GTX 660 or AMD Radeon R9 270",
+      "Storage": "20 GB available space"
+    },
+    "reviews": [
+      {
+        "author": "JohnDoe",
+        "rating": 4,
+        "comment": "Great game for anyone who loves off-road driving and challenging environments. The graphics and sound effects are top-notch, and the variety of vehicles and missions keeps the game interesting."
+      },
+      {
+        "author": "JaneSmith",
+        "rating": 3,
+        "comment": "While I enjoyed the gameplay and the variety of vehicles, the game can be quite repetitive and some of the missions can feel like a chore. The multiplayer modes are a lot of fun, though."
+      }
+    ]
+  },
+  {
+    "id": "11",
+    "title": "Red Dead Redemption 2",
+    "image": "https://i.postimg.cc/VLy884FM/rdr2.jpg",
+    "release": "26 Oct 2018",
+    "tags": ["Open World", "Action", "Adventure"],
+    "price": "59.99",
+    "category": "Action",
+    "description": "Red Dead Redemption 2 is an action-adventure game developed and published by Rockstar Games. It is the third entry in the Red Dead series and a prequel to the 2010 game Red Dead Redemption. The game is set in 1899 in a fictionalized version of the Western, Midwestern, and Southern United States, and follows the story of outlaw Arthur Morgan and the Van der Linde gang as they try to survive in a rapidly changing world.",
+    "features": [
+      "Explore a vast and immersive open world, filled with wildlife, bandits, and other dangers",
+      "Engage in intense gunfights and thrilling horseback chases",
+      "Make choices that impact the story and the fate of the characters around you",
+      "Experience a gripping and emotional narrative that explores themes of loyalty, family, and survival",
+      "Engage in various activities, such as hunting, fishing, and poker",
+      "Play solo or team up with friends in the game's online multiplayer mode"
+    ],
+    "systemRequirements": {
+      "OS": "Windows 7/8/10 (64-bit)",
+      "Processor": "Intel Core i5-2500K @ 3.3GHz or AMD FX-6300 @ 3.5GHz",
+      "Memory": "8 GB RAM",
+      "Graphics": "NVIDIA GeForce GTX 770 2GB or AMD Radeon R9 280 3GB",
+      "Storage": "150 GB available space"
+    },
+    "reviews": [
+      {
+        "author": "GamerGuy123",
+        "rating": 5,
+        "comment": "Absolutely stunning game, the graphics and attention to detail are incredible. The story is gripping and emotional, and the characters are well-developed and memorable. The open world is vast and filled with things to do, and the online multiplayer mode is a blast."
+      },
+      {
+        "author": "WildWestFan",
+        "rating": 4,
+        "comment": "As a huge fan of Westerns, I was really excited for this game, and it did not disappoint. The world is immersive and the gameplay is solid. However, the story can feel slow at times and the controls can be a bit clunky. Overall, a great game for anyone who loves Westerns or open world games."
+      }
+    ]
+  },
+  {
+    "id": "12",
+    "title": "Forza Horizon 5",
+    "image": "https://i.postimg.cc/Dz6D4PsC/forza5.jpg",
+    "release": "9 November 2021",
+    "tags": ["Racing", "Open World", "Multiplayer"],
+    "price": "59.99",
+    "category": "Simulation",
+    "description": "Forza Horizon 5 is a racing game developed by Playground Games and published by Xbox Game Studios. It is the fifth installment in the Forza Horizon series and features an open-world environment set in Mexico. Players can race across various terrains, including jungles, deserts, and beaches, and participate in a variety of events and challenges.",
+    "features": [
+      "Explore a vast open-world environment set in Mexico",
+      "Race across various terrains, including jungles, deserts, and beaches",
+      "Participate in a variety of events and challenges, including street racing, off-road racing, and stunt driving",
+      "Customize your car and upgrade its performance to suit your racing style",
+      "Play solo or team up with friends in multiplayer modes"
+    ],
+    "systemRequirements": {
+      "OS": "Windows 10 version 15063.0 or higher",
+      "Processor": "Intel i3-4170 @ 3.7Ghz or Intel i5 750 @ 2.67Ghz",
+      "Memory": "8 GB RAM",
+      "Graphics": "NVIDIA GTX 650 Ti or AMD R7 250x",
+      "Storage": "80 GB available space"
+    },
+    "reviews": [
+      {
+        "author": "RacingFanatic",
+        "rating": 5,
+        "comment": "Forza Horizon 5 is an amazing game that truly captures the spirit of open-world racing. The graphics and sound are breathtaking, and the variety of events and challenges keeps the game fresh and exciting. Highly recommended for any racing fan."
+      },
+      {
+        "author": "CasualGamer",
+        "rating": 4,
+        "comment": "I'm not usually a racing game fan, but Forza Horizon 5 is a lot of fun. The open-world environment is beautiful, and there's always something to do. The multiplayer modes are a blast, too."
+      }
+    ]
+  },
+  {
+    "id": "13",
+    "title": "Fortnite",
+    "image": "https://i.postimg.cc/XJm0XgSR/fortnite2.jpg",
+    "release": "25 Jul 2017",
+    "tags": ["Action", "Shooter", "Battle Royale", "Multiplayer"],
+    "price": "Free to play",
+    "category": "Action",
+    "description": "Fortnite is a free-to-play online multiplayer game developed by Epic Games. The game features a battle royale mode in which players fight to be the last person or team standing, as well as various other game modes that involve building structures and completing objectives. Players can customize their characters and weapons using in-game items or by purchasing them through microtransactions.",
+    "features": [
+      "Battle Royale mode with up to 100 players",
+      "Creative mode for building and designing custom structures",
+      "Save the World mode with a cooperative campaign",
+      "Cross-platform play with support for multiple devices"
+    ],
+    "systemRequirements": {
+      "OS": "Windows 7/8/10 (64-bit)",
+      "Processor": "Intel Core i3-3225 or equivalent",
+      "Memory": "4 GB RAM",
+      "Graphics": "Intel HD 4000 or equivalent",
+      "Storage": "20 GB available space"
+    },
+    "reviews": [
+      {
+        "author": "GamerGirl",
+        "rating": 5,
+        "comment": "I love this game! The battle royale mode is so intense and exciting, and I love trying out different strategies to be the last one standing. The other modes are also a lot of fun and provide a lot of variety."
+      },
+      {
+        "author": "Ninja",
+        "rating": 4,
+        "comment": "As a professional gamer, I appreciate the skill required to play this game at a high level. The building mechanics add a whole new dimension to the gameplay and require a lot of strategy and quick thinking. However, the microtransactions can be a bit excessive at times."
+      }
+    ]
+  },
+  {
+    "id": "14",
+    "title": "The Last of Us Part 2",
+    "image": "https://i.postimg.cc/CMngX9bS/lastofus2.jpg",
+    "release": "19 June 2020",
+    "tags": ["Action", "Adventure", "Horror"],
+    "price": "59.99",
+    "category": "Video Game",
+    "description": "The Last of Us Part II is a post-apocalyptic action-adventure game developed by Naughty Dog. The game is a sequel to The Last of Us and is set five years after the events of the first game. Players take on the role of Ellie, who must navigate a world ravaged by a deadly pandemic and confront enemies both human and infected to survive.",
+    "features": [
+      "Explore a vast and detailed world set in a post-apocalyptic America",
+      "Experience a captivating story that explores complex themes and relationships",
+      "Engage in intense and brutal combat against both human and infected enemies",
+      "Use stealth and strategy to overcome challenging situations",
+      "Customize weapons and skills to suit your playstyle",
+      "Experience stunning visuals and immersive sound design"
+    ],
+    "systemRequirements": {
+      "OS": "Windows 10 (64-bit)",
+      "Processor": "Intel Core i5-2500K @ 3.3GHz or AMD FX 6300 @ 3.5GHz",
+      "Memory": "8 GB RAM",
+      "Graphics": "NVIDIA GeForce GTX 660 or AMD Radeon R9 270",
+      "Storage": "100 GB available space"
+    },
+    "reviews": [
+      {
+        "author": "GamingFanatic",
+        "rating": 5,
+        "comment": "The Last of Us Part II is an incredible game that surpasses the first game in every way. The storytelling is excellent, the gameplay is intense and satisfying, and the graphics and sound design are top-notch."
+      },
+      {
+        "author": "SurvivorEllie",
+        "rating": 4,
+        "comment": "As a fan of the first game, I was excited for this sequel and it did not disappoint. The story is emotionally impactful and the gameplay is challenging and rewarding. However, some may find the game's dark themes and violence difficult to stomach."
+      }
+    ]
+  },
+  {
+    "id": "15",
+    "title": "Super Mario Odyssey",
+    "image": "https://i.postimg.cc/1tfQ9jT0/supermarioodyssey.jpg",
+    "release": "27 October 2017",
+    "tags": ["Platformer", "Adventure", "Single Player"],
+    "price": "59.99",
+    "category": "Action",
+    "description": "Super Mario Odyssey is a 3D platformer game developed and published by Nintendo. The game follows Mario and his new ally, Cappy, as they travel across various worlds to save Princess Peach from Bowser's wedding plans. The game features new abilities, such as the ability to control various objects and creatures using Cappy, as well as new power-ups and challenges.",
+    "features": [
+      "Explore a variety of vibrant and diverse worlds, from bustling cities to sandy deserts and lush forests",
+      "Use Mario's new abilities, including the ability to control enemies and objects using Cappy, to solve puzzles and defeat enemies",
+      "Collect power moons to power up the Odyssey airship and progress to new worlds",
+      "Encounter familiar characters and enemies from the Mario universe, as well as new ones unique to Super Mario Odyssey"
+    ],
+    "systemRequirements": {
+      "OS": "Nintendo Switch",
+      "Processor": "N/A",
+      "Memory": "4 GB RAM",
+      "Graphics": "NVIDIA Tegra X1",
+      "Storage": "5 GB available space"
+    },
+    "reviews": [
+      {
+        "author": "GamerGirl",
+        "rating": 5,
+        "comment": "Super Mario Odyssey is an amazing game that is both fun and challenging. The graphics and music are top-notch, and the game offers so many new and exciting experiences for Mario fans. Highly recommended!"
+      },
+      {
+        "author": "MarioFan4Life",
+        "rating": 4,
+        "comment": "I love Super Mario Odyssey, but some of the challenges can be quite difficult and frustrating. However, the game is still very enjoyable overall and offers a lot of replayability. A must-play for any Mario fan!"
+      }
+    ]
+  },
+  {
+    "id": "16",
+    "title": "Elder Scrolls 5: Skyrim",
+    "image": "https://i.postimg.cc/FHVmGc3S/skyrim.jpg",
+    "release": "11 November 2011",
+    "tags": ["Open World", "Action RPG", "Fantasy"],
+    "price": "59.99",
+    "category": "Role-Playing",
+    "description": "The Elder Scrolls V: Skyrim is an action role-playing game developed by Bethesda Game Studios. It is the fifth installment in The Elder Scrolls series and takes place in the province of Skyrim. Players take on the role of the Dragonborn, a prophesied figure who can absorb the souls of dragons and use their powers.",
+    "features": [
+      "Explore a vast open world filled with diverse landscapes, dungeons, and cities",
+      "Customize your character with a variety of races, classes, and skills",
+      "Battle fearsome creatures and ancient dragons with a wide range of weapons and spells",
+      "Make choices that affect the world around you and influence the course of the story",
+      "Modding support allows for a virtually limitless amount of user-generated content"
+    ],
+    "systemRequirements": {
+      "OS": "Windows 7/8.1/10 (64-bit Version)",
+      "Processor": "Intel i5-750/AMD Phenom II X4-945",
+      "Memory": "8 GB RAM",
+      "Graphics": "NVIDIA GTX 470 1GB /AMD HD 7870 2GB",
+      "Storage": "12 GB available space"
+    },
+    "reviews": [
+      {
+        "author": "Dragonborn91",
+        "rating": 5,
+        "comment": "This game is a masterpiece. The world is massive and immersive, the story is engaging, and the gameplay is incredibly fun. I have spent hundreds of hours in this game and still find new things to discover."
+      },
+      {
+        "author": "SneakyAssassin",
+        "rating": 4,
+        "comment": "Skyrim is a great RPG with plenty of content to keep you busy. The game is a bit buggy at times, but that can be forgiven given how much there is to do. The modding community is fantastic and adds even more replayability to an already great game."
+      }
+    ]
+  },
+  {
+    "id": "17",
+    "title": "Civilization VI",
+    "image": "https://i.postimg.cc/5tbTtRHY/civilization6.jpg",
+    "release": "21 October 2016",
+    "tags": ["Strategy", "Turn-Based", "Multiplayer"],
+    "price": "59.99",
+    "category": "Strategy",
+    "description": "Civilization VI is a turn-based strategy game developed by Firaxis Games and published by 2K Games. It is the sixth main entry in the Civilization series and offers a variety of gameplay mechanics and features, including diplomacy, city building, and warfare. Players can choose from multiple civilizations and leaders, each with unique abilities and units.",
+    "features": [
+      "Choose from over 20 different civilizations, each with their own unique abilities and units",
+      "Build and manage cities, expand your territory, and compete with other civilizations for dominance",
+      "Engage in diplomacy with other leaders, form alliances, and negotiate trade agreements",
+      "Lead your armies into battle and use a variety of units and tactics to defeat your enemies",
+      "Experience a dynamic and engaging soundtrack that adapts to the gameplay"
+    ],
+    "systemRequirements": {
+      "OS": "Windows 7/8.1/10 (64-bit)",
+      "Processor": "Intel Core i3 2.5 GHz or AMD Phenom II 2.6 GHz",
+      "Memory": "4 GB RAM",
+      "Graphics": "NVIDIA GTX 450 or AMD Radeon HD 5570",
+      "Storage": "12 GB available space"
+    },
+    "reviews": [
+      {
+        "author": "StrategyMaster",
+        "rating": 5,
+        "comment": "Civilization VI is the best strategy game I've ever played. The amount of depth and complexity is amazing, and the game offers so many different ways to win. The graphics and sound are also top-notch."
+      },
+      {
+        "author": "HistoryBuff",
+        "rating": 4,
+        "comment": "As a fan of history, I love how Civilization VI incorporates real historical leaders and events into the game. The gameplay is challenging and rewarding, although it can be a bit slow at times."
+      }
+    ]
+  },
+  {
+    "id": "18",
+    "title": "Euro Truck Simulator 2",
+    "image": "https://i.postimg.cc/52wDbVtW/eurotruck2.jpg",
+    "release": "19 Oct 2012",
+    "tags": ["Simulation", "Driving", "Realistic"],
+    "price": "19.99",
+    "category": "Simulation",
+    "description": "Euro Truck Simulator 2 is a truck driving simulation game developed and published by SCS Software. In the game, players can drive trucks across Europe, complete various missions, and build their own trucking business. The game features a wide variety of trucks, trailers, and cargo, as well as realistic physics and weather conditions.",
+    "features": [
+      "Drive a wide variety of trucks from different manufacturers",
+      "Deliver cargo across Europe and build your own trucking business",
+      "Customize your truck with different accessories and paint jobs",
+      "Experience realistic physics and weather conditions",
+      "Play solo or with friends in multiplayer mode"
+    ],
+    "systemRequirements": {
+      "OS": "Windows 7/8/10 (64-bit)",
+      "Processor": "Dual core CPU 2.4 GHz",
+      "Memory": "4 GB RAM",
+      "Graphics": "GeForce GTS 450-class (Intel HD 4000)",
+      "Storage": "7 GB available space"
+    },
+    "reviews": [
+      {
+        "author": "TruckDriver72",
+        "rating": 5,
+        "comment": "Euro Truck Simulator 2 is the best truck driving game out there! The attention to detail is amazing and the gameplay is very addictive. I love building my own trucking business and exploring different parts of Europe."
+      },
+      {
+        "author": "GamerGirl99",
+        "rating": 4,
+        "comment": "I really enjoy playing Euro Truck Simulator 2, but the game can be quite repetitive at times. However, the multiplayer mode is a lot of fun and adds a new dimension to the game."
+      }
+    ]
+  },
+  {
+    "id": "19",
+    "title": "Need for Speed: Heat",
+    "image": "https://i.postimg.cc/2jgz5CC1/nfsheat.jpg",
+    "release": "8 November 2019",
+    "tags": ["Racing", "Open World", "Action"],
+    "price": "49.99",
+    "category": "Simulation",
+    "description": "Need for Speed: Heat is a racing video game developed by Ghost Games and published by Electronic Arts. The game takes place in the fictional Palm City, where players participate in legal and illegal street races to earn money and reputation. Players can customize their cars and compete against police forces that increase in difficulty as they progress through the game.",
+    "features": [
+      "Explore an open world environment inspired by the city of Miami",
+      "Customize and upgrade your cars with various parts and visual modifications",
+      "Compete in a variety of races, both legal and illegal, to earn money and reputation",
+      "Escape from and outmaneuver police forces that increase in difficulty as you progress",
+      "Experience a dynamic weather system that affects driving conditions"
+    ],
+    "systemRequirements": {
+      "OS": "Windows 7/8.1/10 (64-bit)",
+      "Processor": "Intel Core i5-3570 or AMD FX-6350",
+      "Memory": "8 GB RAM",
+      "Graphics": "NVIDIA GeForce GTX 760 or AMD Radeon R9 280X",
+      "Storage": "50 GB available space"
+    },
+    "reviews": [
+      {
+        "author": "SpeedDemon",
+        "rating": 5,
+        "comment": "The best Need for Speed game in years! The racing is intense, the customization is deep, and the open world is full of things to do. I can't recommend this game enough!"
+      },
+      {
+        "author": "CarLover",
+        "rating": 4,
+        "comment": "Need for Speed: Heat is a great racing game with a lot of content. The police chases can be frustrating at times, but they're also exciting and add a lot of tension to the races. The graphics and sound are top-notch, too."
+      }
+    ]
+  },
+  {
+    "id": "20",
+    "title": "Elden Ring",
+    "category": "Action RPG",
+    "description": "Elden Ring is a dark, epic fantasy action RPG developed by FromSoftware and published by Bandai Namco Entertainment. It features a vast open world, deep lore, and challenging gameplay that will put your skills to the test. In this game, you'll journey across the lands of the Elden Ring, battling fearsome creatures and uncovering the secrets of this mystical realm.",
+    "features": [
+      "Explore a vast open world filled with secrets and dangers",
+      "Customize your character with powerful weapons, magic, and skills",
+      "Battle epic bosses and challenging enemies",
+      "Discover the deep lore of the Elden Ring universe",
+      "Choose your own path and shape the fate of the world"
+    ],
+    "systemRequirements": {
+      "OS": "Windows 10 (64-bit) or newer",
+      "Processor": "Intel Core i5-4670K @ 3.4GHz or AMD Ryzen 5 1600 @ 3.2GHz or equivalent",
+      "Memory": "8 GB RAM",
+      "Graphics": "NVIDIA GeForce GTX 970 or AMD Radeon R9 390 or equivalent",
+      "DirectX": "Version 11",
+      "Storage": "50 GB available space"
+    },
+    "reviews": [
+      {
+        "username": "DarkSoulsFan",
+        "comment": "As a huge fan of FromSoftware's games, I was excited to play Elden Ring and it exceeded my expectations. The open world is amazing and the lore is deep and intriguing.",
+        "rating": 5
+      },
+      {
+        "username": "RPGGamer",
+        "comment": "I love action RPGs and this one is fantastic. The combat is challenging and rewarding, and there's so much to explore and discover. Definitely recommend!",
+        "rating": 4
+      }
+    ],
+    "image": "https://i.postimg.cc/y8q2MdsT/eldenring.jpg",
+    "release": "25 Feb 2022",
+    "tags": ["Action", "RPG", "Fantasy"],
+    "price": "59.99"
+  },
+  {
+    "id": "21",
+    "title": "God of War Ragnarok",
+    "category": "Action-Adventure",
+    "description": "God of War Ragnarok is an upcoming action-adventure game developed by Santa Monica Studio and published by Sony Interactive Entertainment. It is the sequel to the 2018 game, God of War. The game is set in Norse mythology and follows Kratos and his son Atreus as they embark on a new journey to prevent Ragnarok, the end of the world.",
+    "features": [
+      "Explore the Nine Realms of Norse mythology",
+      "Upgrade Kratos and Atreus with new abilities and equipment",
+      "Battle fearsome new enemies and iconic Norse gods",
+      "Experience a rich, emotionally-charged story",
+      "Explore a stunning, immersive world"
+    ],
+    "systemRequirements": {
+      "OS": "PlayStation 5",
+      "Processor": "AMD Zen 2-based CPU with 8 cores @ 3.5GHz",
+      "Memory": "16 GB GDDR6 RAM",
+      "Graphics": "AMD RDNA 2-based GPU with 36 CUs @ 2.23GHz",
+      "Storage": "SSD with 825GB capacity"
+    },
+    "reviews": [
+      {
+        "username": "KratosFan",
+        "comment": "I've been waiting for this game for so long, and it definitely lives up to the hype. The combat is even more satisfying than in the previous game, and the story is emotional and compelling. Can't wait for the sequel!",
+        "rating": 5
+      },
+      {
+        "username": "NorseMythologyNerd",
+        "comment": "As a fan of Norse mythology, I loved the first God of War game and was excited for this one. It did not disappoint. The world-building is amazing, and the story and characters are engaging. Highly recommend!",
+        "rating": 4
+      }
+    ],
+    "image": "https://i.postimg.cc/50kRn9sL/gowr.jpg",
+    "release": "2022",
+    "tags": ["Action", "Adventure", "Fantasy"],
+    "price": "69.99"
+  },
+  {
+    "id": "22",
+    "title": "Call of Duty: Black Ops",
+    "category": "First-person shooter",
+    "description": "Call of Duty: Black Ops is a first-person shooter game that takes place during the Cold War era in the 1960s. The player takes on the role of a CIA operative and participates in various covert missions around the world, including Cuba and Vietnam.",
+    "features": [
+      "Intense single-player campaign",
+      "Thrilling multiplayer modes",
+      "Zombies mode for cooperative play",
+      "Customizable loadouts and equipment",
+      "Numerous maps and game modes",
+      "High-quality graphics and sound design"
+    ],
+    "systemRequirements": {
+      "OS": "Windows 7 64-bit or later",
+      "Processor": "Intel Core i3-4340 or AMD FX-6300 processor",
+      "Memory": "8 GB RAM",
+      "Graphics": "NVIDIA GeForce GTX 660 2GB / GTX 1050 2GB or AMD Radeon HD 7950",
+      "DirectX": "Version 11",
+      "Storage": "175 GB available space"
+    },
+    "reviews": [
+      {
+        "username": "Gamer123",
+        "comment": "I love the multiplayer in this game, it's fast-paced and addictive. The graphics are also top-notch.",
+        "rating": 4.5
+      },
+      {
+        "username": "CODfan",
+        "comment": "The campaign is really intense and engaging. I also enjoy playing zombies mode with my friends.",
+        "rating": 4
+      }
+    ],
+    "image": "https://i.postimg.cc/L5Y07dW7/codbo.jpg",
+    "release": "9 Nov 2010",
+    "tags": ["Shooter", "Action", "Multiplayer"],
+    "price": "19.99"
   }
 ]
