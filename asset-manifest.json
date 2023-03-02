@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d7145617.css",
+    "main.js": "/static/js/main.6a192b6d.js",
+    "static/js/787.b3a37ee3.chunk.js": "/static/js/787.b3a37ee3.chunk.js",
+    "static/media/cyberpunk1920x1080.png": "/static/media/cyberpunk1920x1080.8bf3b154becd7655819a.png",
+    "static/media/acbundle.jpg": "/static/media/acbundle.fc6def9f981f30e76b99.jpg",
+    "static/media/2.jpg": "/static/media/2.0253939e6ec3fe1ba047.jpg",
+    "static/media/codbo.jpg": "/static/media/codbo.7667e729970d30a64496.jpg",
+    "static/media/gowr.jpg": "/static/media/gowr.759448522e948b816cab.jpg",
+    "static/media/3.jpg": "/static/media/3.d058921f24e93241699f.jpg",
+    "static/media/5v4.jpg": "/static/media/5v4.30d21177c5cb46ca92a5.jpg",
+    "static/media/5v2.jpg": "/static/media/5v2.e75b670a4193b79b5cfb.jpg",
+    "static/media/eldenring.jpg": "/static/media/eldenring.4d36cfb0ba75684b32cc.jpg",
+    "index.html": "/index.html",
+    "main.d7145617.css.map": "/static/css/main.d7145617.css.map",
+    "main.6a192b6d.js.map": "/static/js/main.6a192b6d.js.map",
+    "787.b3a37ee3.chunk.js.map": "/static/js/787.b3a37ee3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d7145617.css",
+    "static/js/main.6a192b6d.js"
+  ]
+}
