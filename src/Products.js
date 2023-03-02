@@ -19,11 +19,22 @@ export default function Products() {
       <div className="header">
         <div className="headerContainer">
           {/* Logo */}
-          <div className="logo">
-            <a href="/" className="flex">
+          <div className="logo max-sm:hidden">
+            <a href="/" className="flex ">
               <HeadBarIcon icon={<GiConsoleController size="30" />} />
-              <h2 className="text-eightColor ">Gaming Platform</h2>
+              <h2 className="text-eightColor "> Gaming Platform</h2>
             </a>
+          </div>
+          <div className="logoMobile">
+            <button
+              className="text-eightColor bg-secondColor hover:bg-forthColor text-lg rounded-lg  px-5 py-2.5 mr-2 dark:bg-secondColor dark:hover:bg-forthColor focus:outline-none md:hidden "
+              type="button"
+              data-drawer-target="drawer-navigation"
+              data-drawer-show="drawer-navigation"
+              aria-controls="drawer-navigation"
+            >
+              Gaming Platform
+            </button>
           </div>
           {/* Category */}
           <div className="category">
@@ -39,15 +50,10 @@ export default function Products() {
             >
               Products
             </a>
+
             <a
               className="text-eightColor hover:bg-forthColor hover:text-white px-2 py-2 rounded-full"
-              href="#"
-            >
-              Platforms
-            </a>
-            <a
-              className="text-eightColor hover:bg-forthColor hover:text-white px-2 py-2 rounded-full"
-              href="#"
+              href="Contact"
             >
               Contacts
             </a>
@@ -64,6 +70,7 @@ export default function Products() {
           </div>
         </div>
       </div>
+
       {/* Login Modal */}
       <div
         id="authenticationModal"
@@ -176,6 +183,69 @@ export default function Products() {
           </div>
         </div>
       </div>
+
+      {/* Drawer for mobile */}
+      <div
+        id="drawer-navigation"
+        className="fixed top-0 left-0 z-40 h-screen p-4 overflow-y-auto 
+        transition-transform -translate-x-full
+        bg-firstColor w-80 dark:bg-secondColor space-y-2"
+        tabIndex="-1"
+        aria-labelledby="drawer-navigation-label"
+      >
+        <h2 className="text-lg text-sixColor">Gaming platform</h2>
+        <button
+          type="button"
+          data-drawer-hide="drawer-navigation"
+          aria-controls="drawer-navigation"
+          className="text-eightColor bg-transparent rounded-lg text-sm p-1.5 absolute top-2.5 right-2.5 inline-flex items-center "
+        >
+          <svg
+            aria-hidden="true"
+            className="w-5 h-5"
+            fill="currentColor"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fillRule="evenodd"
+              d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+              clipRule="evenodd"
+            ></path>
+          </svg>
+          <span className="sr-only">Close </span>
+        </button>
+        <div>
+          <ul className=" text-eightColor space-y-3">
+            <li>
+              <a href="/" className="drawerItem">
+                <span className="ml-4">Home</span>
+              </a>
+            </li>
+            <li>
+              <a href="/Dashboard">
+                <span className="ml-4">Dashboard </span>
+              </a>
+            </li>
+            <li>
+              <a href="/Products">
+                <span className="ml-4">Products </span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span className="ml-4">Contact</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span className="ml-4">Sign In</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
       {/* List */}
       <div className="productContainer grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
         {games &&
@@ -213,43 +283,39 @@ export default function Products() {
           Load More
         </button>
       )}
+
       {/* Footer */}
       <footer className="footer">
-        <div className="leftFooter w-1/4">
-          <div className="logo">
+        <div className="leftFooter md:w-1/4">
+          <div className="logo max-sm:hidden">
             <HeadBarIcon icon={<GiConsoleController size="40" />} />
             <h2 className="text-sixColor ">Gaming Platform</h2>
           </div>
-          <p>
-            {" "}
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-            lobortis.{" "}
-          </p>
+          <p className="max-sm:hidden text-lg">Let's play some games.</p>
+          <p className="max-sm:hidden text-lg"> Let's have some fun.</p>
           <div className="socialMedia">
             <HeadBarIcon icon={<FaFacebook size="20" />} />
             <HeadBarIcon icon={<FaTwitter size="20" />} />
             <HeadBarIcon icon={<FaInstagram size="20" />} />
           </div>
-          <p> Copyright &copy; Visan Alin Bogdan </p>
+          <p> Copyright &copy; Visan Alin </p>
         </div>
         <div className="rightFooter ">
           <div className="usefulLinks">
             <h2 className="text-xl text-sixColor">Useful links</h2>
-            <a href="#">Store</a>
-            <a href="#">Platforms</a>
-            <a href="#">Community</a>
+            <a href="/Dashboard">Dashboard</a>
+            <a href="/Products">Store</a>
           </div>
           <div className="terms ">
             <h2 className="text-xl text-sixColor">Terms</h2>
             <a href="#">TOS</a>
             <a href="#">Privacy</a>
-            <a href="#">Refunds</a>
           </div>
           <div className="contact ">
             <h2 className="text-xl text-sixColor">Contact</h2>
-            <a href="#">Support</a>
-            <a href="#">About</a>
-            <a href="#">Contact Us</a>
+
+            <a href="Contact">About</a>
+            <a href="Contact">Contact Us</a>
           </div>
         </div>
       </footer>

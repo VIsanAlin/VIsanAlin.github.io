@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .contactUs {
+    @apply container mx-auto;
+  }
+  .contactTitle {
+    @apply flex justify-center md:text-[4rem] text-2xl text-sevenColor py-4;
+  }
+  .contactSubTitle {
+    @apply flex justify-center md:text-[2rem] text-lg text-sixColor pb-36;
+  }
+  .contactContent {
+    @apply flex flex-col md:flex-row w-3/4 text-eightColor pb-36 md:space-x-8 mx-auto;
+  }
+  .contactForm {
+    @apply flex flex-col md:w-2/3
+    space-y-4;
+  }
+  .contactData {
+    @apply flex flex-col md:w-1/3 space-y-4;
+  }
+}

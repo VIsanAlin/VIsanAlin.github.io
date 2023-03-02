@@ -7,6 +7,7 @@ import App from "./App";
 import Dashboard from "./Dashboard";
 import Products from "./Products";
 import Productgame from "./Productgame";
+import Contact from "./Contact";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import reportWebVitals from "./reportWebVitals";
 
@@ -29,6 +30,10 @@ const router = createBrowserRouter([
     // The clicked game
     path: "Products/:productId",
     element: <Productgame />,
+  },
+  {
+    path: "Contact",
+    element: <Contact />,
   },
 ]);
 

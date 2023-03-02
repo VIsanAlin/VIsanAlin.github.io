@@ -9,7 +9,7 @@ import carouselFour from "./img/acbundle.jpg";
 import heroImage from "./img/2.jpg";
 import HeadHeroImg from "./img/3.jpg";
 import mobileImagev1 from "./img/5v2.jpg";
-import mobileImagev2 from "./img/5v3.jpg";
+import mobileImagev2 from "./img/5v4.jpg";
 
 const HeadBarIcon = ({ icon }) => <div className="sidebar-icon">{icon}</div>;
 
@@ -40,11 +40,22 @@ function App() {
       <div className="header">
         <div className="headerContainer">
           {/* Logo */}
-          <div className="logo">
-            <a href="/" className="flex">
+          <div className="logo max-sm:hidden">
+            <a href="/" className="flex ">
               <HeadBarIcon icon={<GiConsoleController size="30" />} />
               <h2 className="text-eightColor "> Gaming Platform</h2>
             </a>
+          </div>
+          <div className="logoMobile">
+            <button
+              className="text-eightColor bg-secondColor hover:bg-forthColor text-lg rounded-lg  px-5 py-2.5 mr-2 dark:bg-secondColor dark:hover:bg-forthColor focus:outline-none  "
+              type="button"
+              data-drawer-target="drawer-navigation"
+              data-drawer-show="drawer-navigation"
+              aria-controls="drawer-navigation"
+            >
+              Gaming Platform
+            </button>
           </div>
           {/* Category */}
           <div className="category">
@@ -62,7 +73,7 @@ function App() {
             </a>
             <a
               className="text-eightColor hover:bg-forthColor hover:text-white px-2 py-2 rounded-full"
-              href="#"
+              href="Contact"
             >
               Contacts
             </a>
@@ -211,6 +222,69 @@ function App() {
         </div>
       </div>
 
+      {/* Drawer for mobile */}
+      <div
+        id="drawer-navigation"
+        className="fixed top-0 left-0 z-40 h-screen p-4 overflow-y-auto 
+        transition-transform -translate-x-full
+        bg-firstColor w-80 dark:bg-secondColor space-y-2"
+        tabIndex="-1"
+        aria-labelledby="drawer-navigation-label"
+      >
+        <h2 className="text-lg text-sixColor">Gaming platform</h2>
+        <button
+          type="button"
+          data-drawer-hide="drawer-navigation"
+          aria-controls="drawer-navigation"
+          className="text-eightColor bg-transparent rounded-lg text-sm p-1.5 absolute top-2.5 right-2.5 inline-flex items-center "
+        >
+          <svg
+            aria-hidden="true"
+            className="w-5 h-5"
+            fill="currentColor"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fillRule="evenodd"
+              d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+              clipRule="evenodd"
+            ></path>
+          </svg>
+          <span className="sr-only">Close </span>
+        </button>
+        <div>
+          <ul className=" text-eightColor space-y-3">
+            <li>
+              <a href="/" className="drawerItem">
+                <span className="ml-4">Home</span>
+              </a>
+            </li>
+            <li>
+              <a href="/Dashboard">
+                <span className="ml-4">Dashboard </span>
+              </a>
+            </li>
+            <li>
+              <a href="/Products">
+                <span className="ml-4">Products </span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span className="ml-4">Contact</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span className="ml-4">Sign In</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      {/* First image */}
       <img src={HeadHeroImg} className="heroAdvImg" />
 
       {/* Hero */}
@@ -352,38 +426,42 @@ function App() {
       {/* Mobile app */}
       <section id="mobileApp" className="mobileApp">
         <div className="layoutMobileApp">
-          <div className="textMobileApp">
-            <h1 className="text-forthColor max-w-md text-4xl font-bold text-center md:text-5xl md:text-left">
-              On your way back home ?
-            </h1>
-            <p className="text-eightColor max-w-sm text-center md:text-left">
-              {" "}
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.{" "}
-            </p>
+          <div className="mobileAppSectionFirst">
+            <div className="textMobileApp ">
+              <h1 className="text-forthColor max-w-md text-4xl font-bold text-center md:text-5xl md:text-left pt-6">
+                On your way back home ?
+              </h1>
+              <p className="text-eightColor max-w-sm text-center md:text-left pt-6">
+                {" "}
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                sunt in culpa qui officia deserunt mollit anim id est laborum.{" "}
+              </p>
+            </div>
+            <div className="flex items-center mx-auto">
+              <img src={mobileImagev1} alt="" className="mobileImage" />
+            </div>
           </div>
-          <div className="flex items-center mx-auto">
-            <img src={mobileImagev1} alt="" className="mobileImage" />
-          </div>
-          <div className="flex items-center mx-auto">
-            <img src={mobileImagev2} alt="" className="mobileImage" />
-          </div>
-          <div className="textMobileApp">
-            <h1 className="text-forthColor max-w-md text-4xl font-bold text-center md:text-5xl md:text-left">
-              Get notified everywhere you are
-            </h1>
-            <p className="text-eightColor max-w-sm text-center md:text-left">
-              {" "}
-              Duis aute irure dolor in reprehenderit in voluptate velit esse
-              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-              cupidatat non proident, sunt in culpa qui officia deserunt mollit
-              anim id est laborum.{" "}
-            </p>
+          <div className="mobileAppSectionSecond">
+            <div className="flex items-center mx-auto">
+              <img src={mobileImagev2} alt="" className="mobileImage" />
+            </div>
+            <div className="textMobileApp flex flex-col flex-wrap content-end">
+              <h1 className="text-forthColor max-w-md text-4xl font-bold text-center md:text-5xl md:text-right pt-6">
+                Get notified everywhere you are
+              </h1>
+              <p className="text-eightColor max-w-md text-center md:text-right pt-6">
+                {" "}
+                Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                cupidatat non proident, sunt in culpa qui officia deserunt
+                mollit anim id est laborum.{" "}
+              </p>
+            </div>
           </div>
         </div>
       </section>
@@ -539,21 +617,19 @@ function App() {
         <div className="rightFooter ">
           <div className="usefulLinks">
             <h2 className="text-xl text-sixColor">Useful links</h2>
-            <a href="#">Store</a>
-            <a href="#">Platforms</a>
-            <a href="#">Community</a>
+            <a href="/Dashboard">Dashboard</a>
+            <a href="/Products">Store</a>
           </div>
           <div className="terms ">
             <h2 className="text-xl text-sixColor">Terms</h2>
             <a href="#">TOS</a>
             <a href="#">Privacy</a>
-            <a href="#">Refunds</a>
           </div>
           <div className="contact ">
             <h2 className="text-xl text-sixColor">Contact</h2>
-            <a href="#">Support</a>
-            <a href="#">About</a>
-            <a href="#">Contact Us</a>
+
+            <a href="Contact">About</a>
+            <a href="Contact">Contact Us</a>
           </div>
         </div>
       </footer>

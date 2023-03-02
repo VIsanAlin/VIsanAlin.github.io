@@ -16,7 +16,7 @@
   /* Main Page */
   /* Header */
   .header {
-    @apply relative container mx-auto;
+    @apply sticky top-0 bg-firstColor container mx-auto;
   }
   .headerContainer {
     @apply flex items-center justify-between;
@@ -27,6 +27,9 @@
   .logo:hover {
     @apply bg-forthColor text-white rounded-xl h-auto w-auto
     transition-all duration-1000 ease-linear cursor-pointer;
+  }
+  .logoMobile {
+    @apply pt-2 md:hidden;
   }
   .category {
     @apply hidden md:flex space-x-6;
@@ -41,6 +44,11 @@
     duration-500 ease-linear cursor-pointer;
   }
   /* Border Animation */
+
+  /* Drawer mobile */
+  /* .drawerItem {
+    @apply flex;
+  } */
 
   /* Image between header and hero */
   .heroAdvImg {
@@ -185,11 +193,16 @@
     space-y-0 md:space-y-0;
   }
   .layoutMobileApp {
-    @apply grid grid-rows-4  md:grid-cols-2 md:grid-rows-2 gap-10 text-nineColor
-    h-auto w-auto;
+    @apply grid md:grid-rows-2 gap-24 text-nineColor h-auto w-auto;
+  }
+  .mobileAppSectionFirst {
+    @apply flex flex-col-reverse md:flex-row;
+  }
+  .mobileAppSectionSecond {
+    @apply flex flex-col md:flex-row;
   }
   .textMobileApp {
-    @apply mx-auto;
+    @apply w-3/4 md:w-2/4 mx-auto;
   }
   .mobileImage {
     @apply rounded-2xl mx-auto;
