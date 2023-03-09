@@ -5,6 +5,17 @@
     "category": "Action RPG",
     "description": "Hogwarts Legacy is an immersive, open-world action RPG set in the world first introduced in the Harry Potter books. Now you can take control of the action and be at the center of your own adventure in the wizarding world.",
     "publisher": "Portkey Games",
+    "aboutGame": [
+      "Hogwarts Legacy is an immersive, open-world action RPG set in the world of the Harry Potter books and movies.",
+      "As a student of Hogwarts School of Witchcraft and Wizardry, you will explore the school's many secrets and hidden chambers, learn powerful spells and potions, and make choices that will shape your destiny.",
+      "Set in the late 1800s, before the events of the books, you will encounter iconic creatures and characters from the Harry Potter universe, as well as new faces and challenges unique to this time period.",
+      "As you progress through the game, you will uncover a story of ancient magic and dark secrets, and face off against dangerous foes who threaten the safety of the wizarding world.",
+      "ABOUT GAMEPLAY:",
+      "Hogwarts Legacy features a dynamic spell-casting system that allows you to cast spells with a variety of different effects, from stunning enemies to creating protective barriers.",
+      "Explore Hogwarts and its surrounding areas, from the Forbidden Forest to the Hogsmeade village, and encounter a diverse array of magical creatures, from Hippogriffs to Nifflers.",
+      "Customize your character's appearance and abilities, and choose your own path as you make decisions that affect the outcome of the story.",
+      "With an expansive world to explore, a rich story to uncover, and deep RPG mechanics, Hogwarts Legacy promises to be a thrilling adventure for fans of the Harry Potter universe and newcomers alike."
+    ],
     "features": [
       "Experience Hogwarts in the 1800s",
       "Create your own character and become a wizard",
@@ -42,6 +53,12 @@
     "title": "Ready or Not",
     "category": "Action",
     "description": "In Ready or Not, players assume the role of a SWAT officer tasked with responding to high-risk situations, such as hostage rescues and drug busts. The game features a single-player campaign as well as co-op and multiplayer modes.",
+    "aboutGame": [
+      "Ready or Not is a tactical first-person shooter game developed by VOID Interactive. The game features intense and realistic gameplay where you play as a SWAT officer leading a team to neutralize hostile threats in various missions.",
+      "The game features a range of weapons and equipment, as well as a variety of tactics and approaches to completing each mission. You'll need to make strategic decisions and use stealth, non-lethal force, and lethal force as appropriate to succeed in each mission.",
+      "With a focus on realism, the game includes elements such as bullet penetration, tactical breaches, and enemy AI that will react to your actions and make each mission a unique challenge.",
+      "Experience the thrill and tension of high-stakes tactical operations in Ready or Not."
+    ],
     "features": [
       "Campaign mode",
       "Co-op mode",
@@ -80,6 +97,12 @@
     "release": "04 Nov 2014",
     "tags": ["Action", "Casual"],
     "price": "19.99",
+    "aboutGame": [
+      "The Binding of Isaac is a roguelike action-adventure game developed by Edmund McMillen and Florian Himsl. The game follows the story of Isaac, a young boy who is trapped in his basement by his religiously fanatical mother.",
+      "Isaac must fight his way through a series of procedurally-generated levels filled with grotesque monsters and disturbing imagery to ultimately confront his mother and escape the basement.",
+      "The game features a unique art style, challenging gameplay, and a vast array of power-ups and items that can greatly affect your abilities and playstyle.",
+      "With multiple endings and secrets to discover, The Binding of Isaac offers hours of replayability and a memorable gaming experience."
+    ],
     "features": [
       "Randomly generated dungeons",
       "Over 500 unique items",
@@ -115,6 +138,16 @@
     "price": "58.99",
     "category": "Action",
     "description": "Half-Life: Alyx is a VR first-person shooter game developed by Valve Corporation. It is set in the Half-Life universe and takes place before the events of Half-Life 2. The game follows Alyx Vance as she and her father Eli Vance fight against the Combine.",
+    "aboutGame": [
+      "Half-Life: Alyx is Valve VR return to the Half-Life series. It is the story of an impossible fight against a vicious alien race known as the Combine, set between the events of Half-Life and Half-Life 2.",
+      "Playing as Alyx Vance, you are humanity is only chance for survival. The Combine control of the planet since the Black Mesa incident has only strengthened as they corral the remaining population in cities. Among them are some of Earth greatest scientists: you and your father, Dr. Eli Vance.",
+      "As founders of a fledgling resistance, you have continued your clandestine scientific activity—performing critical research, and building invaluable tools for the few humans brave enough to defy the Combine.",
+      "Every day, you learn more about your enemy, and every day you work toward finding a weakness.",
+      "ABOUT GAMEPLAY IN VR:",
+      "Valve returns to the Half-Life universe that started it all was built from the ground up for virtual reality. VR was built to enable the gameplay that sits at the heart of Half-Life.",
+      "Immerse yourself in deep environmental interactions, puzzle solving, world exploration, and visceral combat.",
+      "Lean to aim around a broken wall and under a Barnacle to make an impossible shot. Rummage through shelves to find a healing syringe and some shotgun shells. Manipulate tools to hack alien interfaces. Toss a bottle through a window to distract an enemy. Rip a Headcrab off your face and throw it out the window."
+    ],
     "features": [
       "VR support",
       "Immersive first-person shooter gameplay",
@@ -151,6 +184,11 @@
     "price": "19.99",
     "category": "Casual game",
     "description": "Witch It is a multiplayer hide-and-seek game where players take on the roles of witches and hunters. The witches can transform into objects in the game world to hide from the hunters, while the hunters try to find and capture them. The game is set in a colorful, whimsical world with a variety of different maps and game modes.",
+    "aboutGame": [
+      "Witch It is a multiplayer hide-and-seek game where players take on the roles of witches or hunters. Witches must use their powers to transform into objects and hide from the hunters, while the hunters must use their wits to find and catch the witches.",
+      "With a variety of maps and game modes, Witch It offers endless fun and strategy for players of all skill levels. Whether you prefer sneaky hiding or aggressive hunting, Witch It has something for everyone.",
+      "Gather your friends, form a hunting party, and get ready to cast some spells in Witch It!"
+    ],
     "features": [
       "Online multiplayer for up to 16 players",
       "A variety of different maps and game modes",
@@ -187,6 +225,11 @@
     "price": "35.99",
     "category": "Action",
     "description": "Dying Light 2 is a first-person action game set in an open world overrun by zombies. You play as Aiden Caldwell, a survivor who must navigate the dangerous streets of the city, scavenge for supplies, and fight off hordes of the infected. The game features an immersive storyline with multiple paths and choices that affect the outcome of the game.",
+    "aboutGame": [
+      "Dying Light 2 is the highly anticipated sequel to the critically acclaimed Dying Light. Set in a post-apocalyptic world overrun by the infected, players must navigate the dangerous streets of the city in order to survive.",
+      "As Aiden Caldwell, a survivor with exceptional agility and combat skills, you must make tough choices that will shape the course of the game. Every decision you make will have a lasting impact on the world around you, creating a unique experience for every player.",
+      "With improved parkour and combat mechanics, a massive open world to explore, and a branching narrative that offers endless replayability, Dying Light 2 is a must-play for fans of the survival horror genre."
+    ],
     "features": [
       "Explore a vast open world filled with danger and opportunity",
       "Craft weapons and tools to aid your survival",
@@ -235,6 +278,11 @@
     "price": "69.99",
     "category": "Action RPG",
     "description": "Cyberpunk 2077 is an open-world, action role-playing video game set in Night City, a megalopolis obsessed with power, glamour and body modification. You play as V, a mercenary outlaw going after a one-of-a-kind implant that is the key to immortality. You can customize your character’s cyberware, skillset and playstyle, and explore a vast city where the choices you make shape the story and the world around you.",
+    "aboutGame": [
+      "Cyberpunk 2077 is an open-world, action-adventure game set in the futuristic metropolis of Night City. Playing as V, a mercenary outlaw, players must navigate a world of corporate espionage, gang warfare, and cybernetic enhancements in order to survive and thrive.",
+      "With a deep character customization system, branching storylines, and an immersive world filled with colorful characters and dangerous factions, Cyberpunk 2077 offers endless possibilities for players to explore and shape the world around them.",
+      "Experience the neon-lit streets of Night City, take on dangerous missions, and become the ultimate cyberpunk in this highly anticipated game from CD Projekt Red."
+    ],
     "features": [
       "A mature, non-linear story featuring Keanu Reeves as Johnny Silverhand",
       "A massive open-world city to explore with various districts and factions",
@@ -274,6 +322,12 @@
     "price": "8.19",
     "category": "Simulation",
     "description": "Mini Motorways is a minimalistic and relaxing traffic management game that puts you in charge of designing the road network of a growing city. Connect different buildings and ensure that the flow of traffic is smooth and efficient. The game features procedurally generated maps, day/night cycle, and various challenges to test your skills.",
+    "aboutGame": [
+      "Mini Motorways is a strategy simulation game about designing the road map for a growing city. Draw roads between buildings and watch as cars, trucks, and buses navigate your creation to reach their destinations.",
+      "Over time, the city expands, and more vehicles appear on the roads, so you must plan and adapt your road network to keep the traffic flowing smoothly.",
+      "The game features different maps inspired by real-life cities and various game modes to challenge your strategic skills.",
+      "With its minimalist art style and calming background music, Mini Motorways offers a relaxing yet engaging gameplay experience for players of all ages."
+    ],
     "features": [
       "Design and manage road networks of a growing city",
       "Procedurally generated maps for endless replayability",
@@ -324,6 +378,12 @@
     "price": "29.99",
     "category": "Simulation",
     "description": "Snow Runner is an off-road driving simulation game developed by Saber Interactive. It is the third game in the MudRunner series and features improved graphics and new locations. Players take on the role of a driver and complete various missions to deliver cargo in challenging environments.",
+    "aboutGame": [
+      "SnowRunner is a simulation game that puts you behind the wheel of powerful off-road vehicles to traverse treacherous terrain in the most challenging conditions.",
+      "From muddy swamps to frozen tundras, you'll need to navigate through various environments to complete missions, deliver cargo, and explore the vast open world.",
+      "The game features over 40 vehicles, each with its unique characteristics and upgrade options, and a dynamic weather system that affects the terrain and driving conditions.",
+      "With its realistic physics simulation, detailed graphics, and immersive sound effects, SnowRunner delivers a thrilling off-road experience that will test your driving skills and determination."
+    ],
     "features": [
       "Drive a variety of vehicles, including trucks, trailers, and heavy machinery",
       "Explore vast and diverse environments, from snow-covered mountains to swamps and forests",
@@ -359,6 +419,13 @@
     "price": "59.99",
     "category": "Action",
     "description": "Red Dead Redemption 2 is an action-adventure game developed and published by Rockstar Games. It is the third entry in the Red Dead series and a prequel to the 2010 game Red Dead Redemption. The game is set in 1899 in a fictionalized version of the Western, Midwestern, and Southern United States, and follows the story of outlaw Arthur Morgan and the Van der Linde gang as they try to survive in a rapidly changing world.",
+    "aboutGame": [
+      "Red Dead Redemption 2 is an epic tale of life in America's unforgiving heartland.",
+      "The game's vast and atmospheric world will also provide the foundation for a brand new online multiplayer experience.",
+      "You play as Arthur Morgan, a member of the Van der Linde gang, as he tries to survive in a world that is constantly changing.",
+      "As the government and other forces threaten to take away everything the gang has worked for, Arthur must make difficult choices that will affect the entire group.",
+      "The game features a detailed open-world environment filled with wildlife, towns, and diverse landscapes. Players can engage in a variety of activities such as hunting, fishing, robbing trains, and interacting with various NPCs. The game also features a morality system that affects the story and how other characters interact with Arthur."
+    ],
     "features": [
       "Explore a vast and immersive open world, filled with wildlife, bandits, and other dangers",
       "Engage in intense gunfights and thrilling horseback chases",
@@ -396,6 +463,11 @@
     "price": "59.99",
     "category": "Simulation",
     "description": "Forza Horizon 5 is a racing game developed by Playground Games and published by Xbox Game Studios. It is the fifth installment in the Forza Horizon series and features an open-world environment set in Mexico. Players can race across various terrains, including jungles, deserts, and beaches, and participate in a variety of events and challenges.",
+    "aboutGame": [
+      "Forza Horizon 5 takes players on an epic journey through the vibrant and ever-evolving landscape of Mexico. From the desert to the coast, players can explore a vast and diverse world filled with stunning visuals, dynamic weather, and incredible vistas.",
+      "The game features a massive open-world environment with over 1000 challenges to complete, including street races, off-road adventures, and showcase events. Players can also create their own custom races and challenges using the game's powerful new EventLab tool.",
+      "Forza Horizon 5 boasts the largest and most diverse vehicle lineup in the franchise's history, with over 450 cars and trucks to choose from. The game also features a deep and rewarding progression system that allows players to earn new cars, upgrades, and other rewards as they progress through the game."
+    ],
     "features": [
       "Explore a vast open-world environment set in Mexico",
       "Race across various terrains, including jungles, deserts, and beaches",
@@ -432,6 +504,13 @@
     "price": "Free to play",
     "category": "Action",
     "description": "Fortnite is a free-to-play online multiplayer game developed by Epic Games. The game features a battle royale mode in which players fight to be the last person or team standing, as well as various other game modes that involve building structures and completing objectives. Players can customize their characters and weapons using in-game items or by purchasing them through microtransactions.",
+    "aboutGame": [
+      "Fortnite is a battle royale game developed by Epic Games that has taken the world by storm. The game pits up to 100 players against each other in a last-person-standing fight to the death.",
+      "Players start with nothing but a pickaxe and must scavenge weapons, ammo, and resources to build structures that can help them survive and defeat their opponents.",
+      "With a constantly evolving map and new items added regularly, Fortnite offers endless hours of fun and excitement for players of all skill levels.",
+      "In addition to the classic battle royale mode, Fortnite also features a number of other game modes, such as Creative Mode, Save the World, and more.",
+      "Join the millions of players around the world and see if you have what it takes to become the last player standing!"
+    ],
     "features": [
       "Battle Royale mode with up to 100 players",
       "Creative mode for building and designing custom structures",
@@ -467,6 +546,12 @@
     "price": "59.99",
     "category": "Video Game",
     "description": "The Last of Us Part II is a post-apocalyptic action-adventure game developed by Naughty Dog. The game is a sequel to The Last of Us and is set five years after the events of the first game. Players take on the role of Ellie, who must navigate a world ravaged by a deadly pandemic and confront enemies both human and infected to survive.",
+    "aboutGame": [
+      "The Last of Us Part II is an action-adventure game developed by Naughty Dog and published by Sony Interactive Entertainment. It is the sequel to the critically acclaimed The Last of Us and follows the story of Ellie, a teenage girl who must survive in a post-apocalyptic world overrun by infected humans and ruthless human survivors.",
+      "The game features a gripping story that explores themes of love, loss, and revenge, and offers intense gameplay that blends stealth, action, and survival horror elements.",
+      "With stunning visuals, incredible voice acting, and a haunting soundtrack, The Last of Us Part II is a truly immersive experience that will stay with you long after the credits roll.",
+      "Explore a dangerous world filled with danger and heartache and see if you have what it takes to survive in a world where every decision you make could mean the difference between life and death."
+    ],
     "features": [
       "Explore a vast and detailed world set in a post-apocalyptic America",
       "Experience a captivating story that explores complex themes and relationships",
@@ -504,6 +589,12 @@
     "price": "59.99",
     "category": "Action",
     "description": "Super Mario Odyssey is a 3D platformer game developed and published by Nintendo. The game follows Mario and his new ally, Cappy, as they travel across various worlds to save Princess Peach from Bowser's wedding plans. The game features new abilities, such as the ability to control various objects and creatures using Cappy, as well as new power-ups and challenges.",
+    "aboutGame": [
+      "Super Mario Odyssey is a platform game developed and published by Nintendo. It is the latest installment in the iconic Super Mario series and follows Mario as he travels across various worlds on a quest to save Princess Peach from Bowser's clutches.",
+      "With its vibrant colors, charming characters, and catchy music, Super Mario Odyssey is a delightfully fun and engaging game that is sure to entertain players of all ages.",
+      "The game features a unique gameplay mechanic that allows Mario to control various objects and enemies by throwing his hat, known as Cappy, at them. This opens up a whole new world of possibilities for exploration and puzzle-solving.",
+      "Embark on a grand adventure across a variety of unique and imaginative worlds, from bustling cities to sandy deserts to frozen tundras, and experience the magic of Super Mario Odyssey."
+    ],
     "features": [
       "Explore a variety of vibrant and diverse worlds, from bustling cities to sandy deserts and lush forests",
       "Use Mario's new abilities, including the ability to control enemies and objects using Cappy, to solve puzzles and defeat enemies",

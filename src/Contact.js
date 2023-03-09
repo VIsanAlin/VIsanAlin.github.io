@@ -64,6 +64,7 @@ function Contact() {
       </div>
 
       {/* About us */}
+      {/* <div className="aboutUs"></div> */}
 
       {/* Contact */}
       <div className="contactUs">

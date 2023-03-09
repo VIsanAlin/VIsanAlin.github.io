@@ -2,9 +2,14 @@
 
 # dependencies
 /node_modules
-/server
 /.pnp
 .pnp.js
+
+#PersonalDev
+API.txt
+ImgLinkPOSTIMG.txt
+info.txt
+mongodb.txt
 
 # testing
 /coverage

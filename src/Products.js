@@ -1,18 +1,51 @@
+import * as Realm from "realm-web";
+import { useState, useEffect } from "react";
 import { FaFacebook, FaTwitter, FaInstagram } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { GiConsoleController } from "react-icons/gi";
-import { useState } from "react";
-import games from "./games.json";
+
+// import games from "./games.json";
 
 const HeadBarIcon = ({ icon }) => <div className="sidebar-icon">{icon}</div>;
 
+const searchInput = document.getElementsByClassName("searchInput");
+
 export default function Products() {
+  // Realm MongoDB To get all games from database
+  const [games, setGames] = useState([]);
+
+  useEffect(
+    () => async () => {
+      const REALM_APP_ID = "games-oodpu";
+      const app = new Realm.App({ id: REALM_APP_ID });
+      const credentials = Realm.Credentials.anonymous();
+      try {
+        const user = await app.logIn(credentials);
+        const allGames = await user.functions.getAllGames();
+        setGames(allGames);
+        // console.log(allGames);
+      } catch (error) {
+        console.error(error);
+      }
+    },
+    []
+  );
+
+  // Load More Games
   const [visibleGames, setVisibleGames] = useState(12);
 
   function loadMore() {
     setVisibleGames((prev) => prev + 12);
   }
+  ////////////////////////////////
 
+  // Search bar
+  function searchBar(e) {
+    e.preventDefault();
+    console.log("Clicked Submit");
+  }
+
+  ////////////////////////////////
   return (
     <div className="main">
       {/* Header */}
@@ -70,7 +103,6 @@ export default function Products() {
           </div>
         </div>
       </div>
-
       {/* Login Modal */}
       <div
         id="authenticationModal"
@@ -183,7 +215,6 @@ export default function Products() {
           </div>
         </div>
       </div>
-
       {/* Drawer for mobile */}
       <div
         id="drawer-navigation"
@@ -237,17 +268,50 @@ export default function Products() {
                 <span className="ml-4">Contact</span>
               </a>
             </li>
-            <li>
-              <a href="#">
-                <span className="ml-4">Sign In</span>
-              </a>
-            </li>
           </ul>
         </div>
       </div>
-
       {/* List */}
-      <div className="productContainer grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+      <div className="container mx-auto text-eightColor">
+        <form className="search" onSubmit={searchBar}>
+          <input className="searchInput" type="text" id="search"></input>
+          <button className="searchSubmit" type="submit">
+            Search
+          </button>
+        </form>
+        <div className="sort ">
+          <div id="platform" className="sortBy">
+            <p>Platform</p>
+            <ul className="hidden">
+              <li>PC</li>
+              <li>PlayStation</li>
+              <li>XBOX</li>
+            </ul>
+          </div>
+          <div id="price" className="sortBy">
+            <p>Price</p>
+            <ul className="hidden">
+              <li>5e</li>
+              <li>10e</li>
+              <li>20e</li>
+              <li>30e</li>
+            </ul>
+          </div>
+          <div id="tags" className="sortBy">
+            <p>Tags</p>
+            <ul className="hidden">
+              <li>Action</li>
+              <li>RPG</li>
+              <li>Coop</li>
+              <li>Racing</li>
+              <li>Casual</li>
+              <li>Fantasy</li>
+              <li>Multiplayer</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div className="productContainer ">
         {games &&
           games
             .slice(0, visibleGames)
@@ -257,17 +321,17 @@ export default function Products() {
                 key={id}
                 className="border rounded-md shadow-sm overflow-hidden productItem "
               >
-                <div className="h-48 overflow-hidden">
+                <div className="h-30 w-30 md:h-48 overflow-hidden px-2">
                   <img
                     src={image}
                     alt={title}
                     className="object-fill h-full w-full"
                   />
                 </div>
-                <div className="flex justify-between h-16 px-4 py-2 ">
+                <div className="md:flex md:justify-between h-30 px-2 py-2 ">
                   <div>
                     <h3 className="text-lg font-medium  mb-2">{title}</h3>
-                    <p className=" text-sm mb-2">
+                    <p className="max-sm:hidden text-sm mb-2">
                       {tags.map((tag) => `[${tag}] `)}
                     </p>
                   </div>

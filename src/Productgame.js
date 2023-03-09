@@ -1,15 +1,44 @@
 import { FaFacebook, FaTwitter, FaInstagram } from "react-icons/fa";
 import { GiConsoleController } from "react-icons/gi";
 import { useParams } from "react-router-dom";
+
+import * as Realm from "realm-web";
+import { useState, useEffect } from "react";
 import gamesData from "./games.json";
 
 const HeadBarIcon = ({ icon }) => <div className="sidebar-icon">{icon}</div>;
 
 function Productgame() {
-  console.log(gamesData);
+  // console.log(gamesData);
   const { productId } = useParams();
   const game = gamesData.find((game) => game.id === productId);
-  console.log(game);
+
+  // MongoDB A Game
+  const [games, setGames] = useState([]);
+
+  useEffect(
+    () => async () => {
+      const REALM_APP_ID = "games-oodpu";
+      const app = new Realm.App({ id: REALM_APP_ID });
+      const credentials = Realm.Credentials.anonymous();
+      try {
+        const user = await app.logIn(credentials);
+        const allGames = await user.functions.getAllGames();
+        setGames(allGames);
+        // console.log(allGames);
+      } catch (error) {
+        console.error(error);
+      }
+    },
+    []
+  );
+
+  console.log(`The games are below`);
+  console.log(games);
+
+  const theGame = games.find((thegame) => thegame.id === productId);
+  console.log(theGame);
+
   return (
     <div className="main">
       {/* Header */}
@@ -249,9 +278,14 @@ function Productgame() {
 
       {/* The product */}
       <div className="productLayout">
+        {theGame &&
+          Object.keys(theGame).forEach((key) => {
+            console.log(key + "-" + `${theGame[key]}`);
+            console.log(theGame[key]);
+          })}
         <h2 className="text-4xl px-8 py-4">{game.title}</h2>
-        <div className="flex md:flex-row flex-col">
-          <div className="px-8 md:w-1/2">
+        <div className="flex md:flex-row flex-col bg-cover bg-center bg-opacity-0">
+          <div className="px-8 md:w-1/2 ">
             <img src={game.image} alt={game.title} />
           </div>
           <div className="flex flex-col space-y-4 md:w-1/2 px-8">
@@ -271,11 +305,18 @@ function Productgame() {
             Price: {game.price}
           </p>
         </div>
+        <div className="aboutGame">
+          {game.aboutGame.map((aboutGame) => (
+            <p>{aboutGame}</p>
+          ))}
+        </div>
         <div className="features">
           <p className="border-b-2 border-tenColor pb-2">Features: </p>
-          <ul>
+          <ul className="space-y-4">
             {game.features.map((feature) => (
-              <li>{feature}</li>
+              <ul className="list-disc ">
+                <li>{feature}</li>
+              </ul>
             ))}
           </ul>
         </div>
@@ -283,18 +324,37 @@ function Productgame() {
           <p className="border-b-2 border-tenColor pb-2">
             System requirements:
           </p>
-          <ul>
-            <li>OS: {game.systemRequirements.OS}</li>
-            <li>Processor: {game.systemRequirements.Processor}</li>
-            <li>Memory: {game.systemRequirements.Memory}</li>
-            <li>Graphics: {game.systemRequirements.Graphics}</li>
-            <li>DirectX: {game.systemRequirements.DirectX}</li>
-            <li>Storage: {game.systemRequirements.Storage}</li>
+          <ul className="space-y-2">
+            <li className="list-disc">
+              {" "}
+              <span className="text-lg pr-2 text-sevenColor">OS:</span>{" "}
+              {game.systemRequirements.OS}
+            </li>
+            <li className="list-disc">
+              <span className="text-lg pr-2 text-sevenColor">Processor:</span>{" "}
+              {game.systemRequirements.Processor}
+            </li>
+            <li className="list-disc">
+              <span className="text-lg pr-2 text-sevenColor">Memory:</span>{" "}
+              {game.systemRequirements.Memory}
+            </li>
+            <li className="list-disc">
+              <span className="text-lg pr-2 text-sevenColor"> Graphics:</span>{" "}
+              {game.systemRequirements.Graphics}
+            </li>
+            <li className="list-disc">
+              <span className="text-lg pr-2 text-sevenColor"> DirectX:</span>{" "}
+              {game.systemRequirements.DirectX}
+            </li>
+            <li className="list-disc">
+              <span className="text-lg pr-2 text-sevenColor"> Storage:</span>{" "}
+              {game.systemRequirements.Storage}
+            </li>
           </ul>
         </div>
         <div className="reviews">
           <h3 className="border-b-2 border-tenColor pb-2">User reviews:</h3>
-          <ul>
+          <ul className="space-y-10">
             {game.reviews.map((review) => (
               <li>
                 <p>{review.comment}</p>
